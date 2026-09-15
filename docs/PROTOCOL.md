@@ -1,4 +1,6 @@
-# Experimental protocol v1
+# Experimental protocol v1.1
+
+Pre-fit amendment: initial training uses month **0 only**, not 0–1. Under d=1, month 1 labels are unavailable at the start of reference month 2. No model was fitted or evaluation outcomes seen before this correction. Fix lbfgs, max_iter=1000, tol=1e-4, random_state=42. The feature contract is in DATA.md. Refit counts exclude the shared initial fit.
 
 Frozen before model fitting or evaluation. Changes require a new version, rationale, and disclosure of which results have already been seen. This repository is not a formal external preregistration.
 
@@ -10,7 +12,7 @@ Compare **frozen**, **monthly retrained**, and **persistent-evidence-triggered**
 
 - BAF Base.csv only, author distribution version 2. Synthetic bank-account applications, not real payment records or Canadian bank data.
 - Author metadata checked on 2026-09-15: version 2, updated 2023-11-29; Base.csv advertised as 213,427,735 bytes. Actual checksum/schema must be recorded after acquisition.
-- Data license: CC BY-NC-SA 4.0. No raw data or model artifacts will be pushed. Source code licensing does not replace data terms.
+- Kaggle metadata states CC BY-NC-SA 4.0, but the older author datasheet states CC BY-NC-ND 4.0. Keep raw/modified data and models local for non-commercial research; no redistribution clearance is claimed. Code licensing does not replace data terms.
 - Month 0 through 7 is the expected temporal support; fail validation if not true. Do not invent daily timestamps, IDs identifying actual people, or label-arrival dates.
 - Keep row order as a reproducible tie-break only, never as time or a model feature. Exclude month and fraud_bool from predictors. Review remaining feature meanings before training.
 
@@ -20,7 +22,7 @@ Sources: [author repository](https://github.com/feedzai/bank-account-fraud), [di
 
 A decision for month t occurs at its start. A label for month m is available at the start of m + 1 + d. Primary d = 1: one **complete additional month** after the event month ends. This delay is simulated and identical for positives/negatives, not observed.
 
-- Initial training: months 0–1.
+- Initial training: month 0 only, available at start of month 2 under d=1.
 - Month 2: initial model's held-out reference for recall at capacity. Its labels become available at start of month 4.
 - Months 3–5: development replay, no final results. Fixed settings below avoid a large tuning search.
 - Months 6–7: final sequential test. Save predictions and decisions before revealing their labels. Primary d = 1 means neither final month's labels may influence either final decision.
