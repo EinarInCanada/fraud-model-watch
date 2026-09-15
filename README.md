@@ -32,7 +32,13 @@ This is a research portfolio project, not a banking product or an automated frau
 
 See [the roadmap](docs/ROADMAP.md) and [contribution guidance](CONTRIBUTING.md). Each completed, verified increment should be committed and pushed with an accurate description. Commits reflect real work, not an artificial daily activity target.
 
-There is no installation command yet because there is no executable implementation.
+The initial timing, capacity-ranking, and evidence-gate primitives use only Python's standard library. Run their tests with Python 3.11 or later:
+
+```sh
+python -m unittest discover -s tests -v
+```
+
+These are tested research components, not a trained model or a complete replay pipeline. The gate rejects unavailable feedback; its caller must still provide genuine stored sentinel predictions.
 
 ## Data and privacy
 
