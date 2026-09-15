@@ -1,0 +1,40 @@
+# Roadmap
+
+## 0. Initialize — complete
+
+- Establish the research question, scope, and publication workflow.
+- Publish the initial repository without claiming implemented capabilities.
+
+## 1. Feasibility and overlap — next
+
+- Inspect candidate data sources for license, timestamps, labels, and leakage risks.
+- Compare existing open-source implementations against the same proposed task.
+- Record a go/no-go decision: reuse existing work, identify a measurable contribution, or stop.
+- Do not build a dashboard before this gate passes.
+
+## 2. Reproducible baseline
+
+- Document acquisition without redistributing restricted data.
+- Add schema checks, chronological split tests, a simple model, and reproducible evaluation.
+- Freeze the test period before tuning.
+
+## 3. Time-based evaluation
+
+- Compare performance and calibration across periods.
+- Quantify uncertainty and explain limitations of the observation window.
+- Handle delayed labels only if supported by data, or explicitly simulate the delay.
+
+## 4. Decision experiment
+
+- Compare unchanged, threshold-adjusted, and retrained policies under equal review capacity.
+- Choose policies using only information available at the decision time.
+- Report hypothetical cost sensitivity rather than invented financial savings.
+
+## 5. Failure analysis and delivery
+
+- Evaluate controlled faults separately from real temporal changes.
+- Publish reproducible results, limitations, and a concise demonstration.
+
+## Commit and push policy
+
+After each coherent increment: run relevant checks, inspect the diff and staged files for secrets or data, commit an honest summary, and push to GitHub. Documentation-only steps should check links and formatting; executable steps must include appropriate tests. Failed or incomplete work must be labeled accurately. Do not backdate commits, create empty activity commits, or imply automated daily work is scheduled.
