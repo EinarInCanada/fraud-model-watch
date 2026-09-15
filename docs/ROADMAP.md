@@ -5,9 +5,9 @@
 - Establish the research question, scope, and publication workflow.
 - Publish the initial repository without claiming implemented capabilities.
 
-## 1. Feasibility and overlap — initial review complete; implementation on hold
+## 1. Feasibility and overlap — complete; revised scope approved
 
-See [FEASIBILITY.md](FEASIBILITY.md). The broad monitoring product does not pass the differentiation gate. Proceeding as a non-commercial comparative study on synthetic account-application data requires an explicit scope decision.
+See [FEASIBILITY.md](FEASIBILITY.md). The broad product was rejected; the owner subsequently approved a non-commercial comparative study with synthetic data and a modest experimental extension. [Protocol v1](PROTOCOL.md) governs implementation.
 
 - Inspect candidate data sources for license, timestamps, labels, and leakage risks.
 - Compare existing open-source implementations against the same proposed task.
@@ -28,7 +28,7 @@ See [FEASIBILITY.md](FEASIBILITY.md). The broad monitoring product does not pass
 
 ## 4. Decision experiment
 
-- Compare unchanged, threshold-adjusted, and retrained policies under equal review capacity.
+- Compare frozen, monthly retrained, and evidence-triggered policies under equal review capacity.
 - Choose policies using only information available at the decision time.
 - Report hypothetical cost sensitivity rather than invented financial savings.
 

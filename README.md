@@ -6,7 +6,7 @@ A planned, reproducible data science study of fraud-model performance over time 
 
 ## Status
 
-The initial feasibility review is complete: **hold implementation**. Existing work substantially overlaps with the broad concept, and none of the reviewed datasets establishes the original real-world, delayed-label transaction scenario. See the [evidence and decision](docs/FEASIBILITY.md). No dataset has been downloaded, no model trained, and no benchmark results produced. A narrower comparative study is proposed, not yet approved.
+The owner approved a **non-commercial empirical study on explicitly synthetic BAF account applications**, with a small experimental extension rather than a claim of a novel product. The historical [feasibility review](docs/FEASIBILITY.md) is retained. See [protocol v1](docs/PROTOCOL.md) for the fixed experimental design. No model has been trained and no benchmark results exist yet.
 
 ## Research questions
 

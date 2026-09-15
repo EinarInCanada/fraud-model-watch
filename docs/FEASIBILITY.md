@@ -2,6 +2,8 @@
 
 Review date: 2026-09-15. This is a bounded first-pass review, not an exhaustive novelty search or a reproduced benchmark.
 
+**Subsequent decision:** the owner accepted the synthetic-data empirical study. The original hold decision below is historical; [protocol v1](PROTOCOL.md) now authorizes the revised scope. No originality or positive-result claim follows from this approval.
+
 ## Decision
 
 **Hold implementation of the broad fraud-monitoring product.** Existing work already covers substantial parts of temporal validation, delayed labels, adaptation decisions, and capacity-constrained review. No claim of an unserved market or a novel algorithm is supported.
