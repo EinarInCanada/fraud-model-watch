@@ -10,4 +10,4 @@ The project is currently in its feasibility phase. Discuss scope changes before 
 - Attribute reused code and data and comply with their licenses.
 - Record known limitations and failed hypotheses.
 
-A code license will be selected before implementation is released for reuse; public visibility alone is not an open-source license.
+Original project code is MIT licensed. External datasets retain their own terms; see docs/DATA.md for the BAF license discrepancy and restrictions on redistribution.

@@ -14,7 +14,9 @@ See [FEASIBILITY.md](FEASIBILITY.md). The broad product was rejected; the owner 
 - Record a go/no-go decision: reuse existing work, identify a measurable contribution, or stop.
 - Do not build a dashboard before this gate passes.
 
-## 2. Reproducible baseline
+## 2. Reproducible baseline — complete (reference/development only)
+
+Pinned Base.csv verified; conservative feature contract and pre-fit timing correction recorded; logistic regression trained on month 0 and scored on months 2–5. See [results](BASELINE_RESULTS.md). Final months remain unscored. Next: implement the three-policy replay with persisted decisions and predictions before final evaluation.
 
 - Document acquisition without redistributing restricted data.
 - Add schema checks, chronological split tests, a simple model, and reproducible evaluation.

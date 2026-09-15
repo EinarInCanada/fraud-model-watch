@@ -6,7 +6,7 @@ A planned, reproducible data science study of fraud-model performance over time 
 
 ## Status
 
-The owner approved a **non-commercial empirical study on explicitly synthetic BAF account applications**, with a small experimental extension rather than a claim of a novel product. The historical [feasibility review](docs/FEASIBILITY.md) is retained. See [protocol v1](docs/PROTOCOL.md) for the fixed experimental design. No model has been trained and no benchmark results exist yet.
+The owner approved a **non-commercial empirical study on explicitly synthetic BAF account applications**, with a small experimental extension rather than a claim of a novel product. The historical [feasibility review](docs/FEASIBILITY.md) is retained. The [protocol v1.1](docs/PROTOCOL.md) baseline is now trained and evaluated on reference/development months only. [Initial results](docs/BASELINE_RESULTS.md) do not establish final performance or benefits of adaptive retraining. Final months 6–7 remain unscored.
 
 ## Research questions
 
@@ -32,13 +32,23 @@ This is a research portfolio project, not a banking product or an automated frau
 
 See [the roadmap](docs/ROADMAP.md) and [contribution guidance](CONTRIBUTING.md). Each completed, verified increment should be committed and pushed with an accurate description. Commits reflect real work, not an artificial daily activity target.
 
-The initial timing, capacity-ranking, and evidence-gate primitives use only Python's standard library. Run their tests with Python 3.11 or later:
+Use Python 3.11–3.13. Timing/gate primitives are standard-library only; the baseline requires pinned scientific packages:
 
 ```sh
-python -m unittest discover -s tests -v
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m unittest discover -s tests -v
 ```
 
-These are tested research components, not a trained model or a complete replay pipeline. The gate rejects unavailable feedback; its caller must still provide genuine stored sentinel predictions.
+Acquire Base.csv using [DATA.md](docs/DATA.md), then run:
+
+```sh
+.venv/bin/python -m fraud_model_watch.baseline --output artifacts/baseline-v1.1
+```
+
+The command validates the exact data hash, trains on month 0, and scores only months 2–5. Each run requires a new output directory; it never overwrites prior runs. Predictions stay in ignored local artifacts. The complete three-policy replay is not implemented yet. The gate rejects unavailable feedback; its caller must supply genuine stored sentinel predictions.
+
+Original code is [MIT licensed](LICENSE); BAF data is not. See the license discrepancy and restrictions in DATA.md.
 
 ## Data and privacy
 
