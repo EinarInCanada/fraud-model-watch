@@ -16,7 +16,7 @@ See [FEASIBILITY.md](FEASIBILITY.md). The broad product was rejected; the owner 
 
 ## 2. Reproducible baseline — complete (reference/development only)
 
-Pinned Base.csv verified; conservative feature contract and pre-fit timing correction recorded; logistic regression trained on month 0 and scored on months 2–5. See [results](BASELINE_RESULTS.md). Final months remain unscored. Next: implement the three-policy replay with persisted decisions and predictions before final evaluation.
+Pinned Base.csv verified; conservative feature contract and pre-fit timing correction recorded; logistic regression trained on month 0 and scored on months 2–5. See [results](BASELINE_RESULTS.md). Subsequent three-policy replay and held-out scoring are now complete; see FINAL_RESULTS.md.
 
 - Document acquisition without redistributing restricted data.
 - Add schema checks, chronological split tests, a simple model, and reproducible evaluation.
@@ -28,7 +28,9 @@ Pinned Base.csv verified; conservative feature contract and pre-fit timing corre
 - Quantify uncertainty and explain limitations of the observation window.
 - Handle delayed labels only if supported by data, or explicitly simulate the delay.
 
-## 4. Decision experiment
+## 4. Decision experiment — primary run complete
+
+See [final results](FINAL_RESULTS.md). Scheduled retraining captured 18 more positive labels than frozen/evidence under equal capacity. The proposed gate did not fire; no advantage demonstrated. Sensitivity, uncertainty and subgroup analyses remain unperformed.
 
 - Compare frozen, monthly retrained, and evidence-triggered policies under equal review capacity.
 - Choose policies using only information available at the decision time.

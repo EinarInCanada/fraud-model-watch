@@ -2,11 +2,13 @@
 
 **When transaction patterns change, can you still trust your fraud model?**
 
-A planned, reproducible data science study of fraud-model performance over time and review decisions under limited analyst capacity.
+A reproducible data science study of fraud-model performance over time and review decisions under limited analyst capacity.
 
 ## Status
 
-The owner approved a **non-commercial empirical study on explicitly synthetic BAF account applications**, with a small experimental extension rather than a claim of a novel product. The historical [feasibility review](docs/FEASIBILITY.md) is retained. The [protocol v1.1](docs/PROTOCOL.md) baseline is now trained and evaluated on reference/development months only. [Initial results](docs/BASELINE_RESULTS.md) do not establish final performance or benefits of adaptive retraining. Final months 6–7 remain unscored.
+The **primary non-commercial study on synthetic BAF account applications is complete**. [Final results](docs/FINAL_RESULTS.md): scheduled retraining captured 530 positive labels versus 512 for frozen/evidence-triggered models at identical review capacity. The evidence gate never fired; **no advantage for the proposed extension was demonstrated**. Final months 6–7 have now been scored. Any subsequent tuning on them is exploratory.
+
+The [feasibility review](docs/FEASIBILITY.md), [protocol v1.1](docs/PROTOCOL.md), [development baseline](docs/BASELINE_RESULTS.md), and [pre-scoring manifest anchor](docs/RUN_RECORD.md) preserve the research timeline. This is not a novel banking product or a production fraud adjudicator.
 
 ## Research questions
 
