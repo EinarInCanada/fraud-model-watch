@@ -5,7 +5,9 @@
 - Establish the research question, scope, and publication workflow.
 - Publish the initial repository without claiming implemented capabilities.
 
-## 1. Feasibility and overlap — next
+## 1. Feasibility and overlap — initial review complete; implementation on hold
+
+See [FEASIBILITY.md](FEASIBILITY.md). The broad monitoring product does not pass the differentiation gate. Proceeding as a non-commercial comparative study on synthetic account-application data requires an explicit scope decision.
 
 - Inspect candidate data sources for license, timestamps, labels, and leakage risks.
 - Compare existing open-source implementations against the same proposed task.

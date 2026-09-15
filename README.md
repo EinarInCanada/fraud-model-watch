@@ -6,7 +6,7 @@ A planned, reproducible data science study of fraud-model performance over time 
 
 ## Status
 
-Project initialization only. No dataset has been selected or downloaded; no model, benchmark results, or production deployment exists yet. Dataset suitability and overlap with existing projects must be evaluated before implementation.
+The initial feasibility review is complete: **hold implementation**. Existing work substantially overlaps with the broad concept, and none of the reviewed datasets establishes the original real-world, delayed-label transaction scenario. See the [evidence and decision](docs/FEASIBILITY.md). No dataset has been downloaded, no model trained, and no benchmark results produced. A narrower comparative study is proposed, not yet approved.
 
 ## Research questions
 
