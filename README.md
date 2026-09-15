@@ -46,7 +46,16 @@ Acquire Base.csv using [DATA.md](docs/DATA.md), then run:
 .venv/bin/python -m fraud_model_watch.baseline --output artifacts/baseline-v1.1
 ```
 
-The command validates the exact data hash, trains on month 0, and scores only months 2–5. Each run requires a new output directory; it never overwrites prior runs. Predictions stay in ignored local artifacts. The complete three-policy replay is not implemented yet. The gate rejects unavailable feedback; its caller must supply genuine stored sentinel predictions.
+The command validates the exact data hash, trains on month 0, and scores only months 2–5. Each run requires a new output directory; it never overwrites prior runs. Predictions stay in ignored local artifacts.
+
+The primary three-policy replay is implemented as separate prediction and scoring stages:
+
+```sh
+.venv/bin/python -m fraud_model_watch.replay predict --output artifacts/replay-v1.1
+.venv/bin/python -m fraud_model_watch.replay score --output artifacts/replay-v1.1
+```
+
+Prediction requires a clean committed checkout. It saves each decision before fitting/predicting, stores predictions without targets, and records source/dependency and artifact hashes. Scoring verifies those hashes and source-row alignment before reading final labels. These are reproducibility checks, not tamper-proof signatures. Only the primary one-month additional label delay is implemented. Sensitivity runs need their own temporally valid reference design; the two-month delay cannot reuse a month-2 reference trained on month 0.
 
 Original code is [MIT licensed](LICENSE); BAF data is not. See the license discrepancy and restrictions in DATA.md.
 
