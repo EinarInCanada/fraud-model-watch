@@ -33,4 +33,4 @@ Convert documented missing sentinels only: -1 in previous/current address months
 
 Categoricals: payment_type, employment_status, housing_status, source, device_os. Unknown categories map to all-zero. No row removal, resampling, class weighting or use of row positions as features.
 
-Fit month 0; score reference/development months 2–5 only. Final months 6–7 remain unscored. This differs from the authors' published split and must not be presented as directly comparable performance.
+The development baseline fits month 0 and scores reference/development months 2–5 only. At the time this contract was declared, final months 6–7 remained unscored; the subsequent primary replay has now scored them, and follow-up BAF analyses are explicitly exploratory. This differs from the authors' published split and must not be presented as directly comparable performance.

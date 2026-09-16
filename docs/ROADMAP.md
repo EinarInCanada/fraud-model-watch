@@ -22,7 +22,9 @@ Pinned Base.csv verified; conservative feature contract and pre-fit timing corre
 - Add schema checks, chronological split tests, a simple model, and reproducible evaluation.
 - Freeze the test period before tuning.
 
-## 3. Time-based evaluation
+## 3. Time-based evaluation — complete
+
+Primary chronology and delayed-label replay are complete. [Secondary results](SECONDARY_RESULTS.md) add temporally valid d=0/1/2 analyses and fixed model-complexity comparison. [Diagnostics](DIAGNOSTIC_RESULTS.md) report calibration and paired uncertainty.
 
 - Compare performance and calibration across periods.
 - Quantify uncertainty and explain limitations of the observation window.
@@ -30,17 +32,17 @@ Pinned Base.csv verified; conservative feature contract and pre-fit timing corre
 
 ## 4. Decision experiment — primary run complete
 
-See [final results](FINAL_RESULTS.md). Scheduled retraining captured 18 more positive labels than frozen/evidence under equal capacity. The proposed gate did not fire; no advantage demonstrated. Sensitivity, uncertainty and subgroup analyses remain unperformed.
+See [final results](FINAL_RESULTS.md). Scheduled retraining captured 18 more positive labels than frozen/evidence under equal capacity. The proposed gate did not fire; no advantage demonstrated. Subsequent exploratory sensitivity, uncertainty, subgroup and hypothetical-cost analyses are complete; see [secondary results](SECONDARY_RESULTS.md) and [diagnostics](DIAGNOSTIC_RESULTS.md).
 
 - Compare frozen, monthly retrained, and evidence-triggered policies under equal review capacity.
 - Choose policies using only information available at the decision time.
 - Report hypothetical cost sensitivity rather than invented financial savings.
 
-## 5. Failure analysis and delivery
+## 5. Failure analysis and delivery — complete
 
-S2 uncertainty diagnostic is complete: [results](UNCERTAINTY_RESULTS.md). Fixed-horizon statistical filtering reduces sparse-data false alarms but misses most simulated persistent changes at n=30. No superiority or deployment claim. Power/sample-size analysis and end-to-end policy benefit remain unverified.
+S2 uncertainty diagnostic is complete: [results](UNCERTAINTY_RESULTS.md). Fixed-horizon statistical filtering reduces sparse-data false alarms but misses most simulated persistent changes at n=30. [S3 power/sample-size analysis](POWER_RESULTS.md) is complete. No superiority or deployment benefit was demonstrated.
 
-S1 aggregate gate diagnostics are complete: [results](STRESS_RESULTS.md). They demonstrate small-sample false alarms, delayed responses and missing-feedback limitations, not improved model performance. Transaction-level fault studies, uncertainty-aware policy validation and subgroup analyses remain future work; no new policy has been selected from these outcomes.
+S1 aggregate gate diagnostics are complete: [results](STRESS_RESULTS.md). They demonstrate small-sample false alarms, delayed responses and missing-feedback limitations, not improved model performance. Generated row-level [fault checks](FAULT_RESULTS.md), a no-data CLI demo, [final research report](RESEARCH_REPORT.md), [reproduction guide](REPRODUCE.md) and [completion audit](COMPLETION_AUDIT.md) are delivered. The corrected gate is evaluated descriptively on BAF; no policy is selected from those exploratory outcomes.
 
 - Evaluate controlled faults separately from real temporal changes.
 - Publish reproducible results, limitations, and a concise demonstration.
