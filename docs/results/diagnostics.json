@@ -1,0 +1,850 @@
+{
+  "scope": "exploratory diagnostics after primary holdout was scored",
+  "primary_manifest_sha256": "bd91b3d41382cb0c475abba07b480fd2403768a22e1f319e042f6b02296b42ac",
+  "monthly": [
+    {
+      "month": 6,
+      "policy": "frozen",
+      "calibration": [
+        {
+          "lower": 0,
+          "upper": 0.1,
+          "upper_inclusive": false,
+          "count": 105682,
+          "mean_probability": 0.011270873952558989,
+          "positive_fraction": 0.009793531538010257
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "upper_inclusive": false,
+          "count": 1879,
+          "mean_probability": 0.13612612720348194,
+          "positive_fraction": 0.1271953166577967
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "upper_inclusive": false,
+          "count": 415,
+          "mean_probability": 0.2405289548478625,
+          "positive_fraction": 0.25060240963855424
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "upper_inclusive": false,
+          "count": 148,
+          "mean_probability": 0.3414941055872642,
+          "positive_fraction": 0.3581081081081081
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "upper_inclusive": false,
+          "count": 32,
+          "mean_probability": 0.4409610009663195,
+          "positive_fraction": 0.4375
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "upper_inclusive": false,
+          "count": 6,
+          "mean_probability": 0.5339687746379402,
+          "positive_fraction": 0.3333333333333333
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "upper_inclusive": false,
+          "count": 4,
+          "mean_probability": 0.6267697186855353,
+          "positive_fraction": 0.5
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "upper_inclusive": false,
+          "count": 2,
+          "mean_probability": 0.7204397364256825,
+          "positive_fraction": 0.5
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "upper_inclusive": false,
+          "count": 0,
+          "mean_probability": null,
+          "positive_fraction": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1,
+          "upper_inclusive": true,
+          "count": 0,
+          "mean_probability": null,
+          "positive_fraction": null
+        }
+      ],
+      "groups": [
+        {
+          "group": "age_lt50",
+          "n": 87056,
+          "positives": 879,
+          "negatives": 86177,
+          "reviewed": 427,
+          "captured": 88,
+          "false_positives": 339,
+          "prevalence": 0.010096949090240765,
+          "selection_rate": 0.004904888807204558,
+          "recall": 0.10011376564277588,
+          "false_positive_selection_rate": 0.003933764229434768,
+          "precision": 0.20608899297423888
+        },
+        {
+          "group": "age_ge50",
+          "n": 21112,
+          "positives": 571,
+          "negatives": 20541,
+          "reviewed": 654,
+          "captured": 163,
+          "false_positives": 491,
+          "prevalence": 0.027046229632436528,
+          "selection_rate": 0.030977643046608563,
+          "recall": 0.28546409807355516,
+          "false_positive_selection_rate": 0.02390341268682148,
+          "precision": 0.2492354740061162
+        }
+      ]
+    },
+    {
+      "month": 6,
+      "policy": "scheduled",
+      "calibration": [
+        {
+          "lower": 0,
+          "upper": 0.1,
+          "upper_inclusive": false,
+          "count": 107116,
+          "mean_probability": 0.006584109635701323,
+          "positive_fraction": 0.011156129803204002
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "upper_inclusive": false,
+          "count": 824,
+          "mean_probability": 0.136769156844139,
+          "positive_fraction": 0.20752427184466019
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "upper_inclusive": false,
+          "count": 173,
+          "mean_probability": 0.23884537056433458,
+          "positive_fraction": 0.3236994219653179
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "upper_inclusive": false,
+          "count": 39,
+          "mean_probability": 0.34044069244128794,
+          "positive_fraction": 0.5128205128205128
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "upper_inclusive": false,
+          "count": 10,
+          "mean_probability": 0.4327825907491854,
+          "positive_fraction": 0.6
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "upper_inclusive": false,
+          "count": 4,
+          "mean_probability": 0.5396679463103158,
+          "positive_fraction": 0.25
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "upper_inclusive": false,
+          "count": 2,
+          "mean_probability": 0.6663088612492996,
+          "positive_fraction": 0.5
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "upper_inclusive": false,
+          "count": 0,
+          "mean_probability": null,
+          "positive_fraction": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "upper_inclusive": false,
+          "count": 0,
+          "mean_probability": null,
+          "positive_fraction": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1,
+          "upper_inclusive": true,
+          "count": 0,
+          "mean_probability": null,
+          "positive_fraction": null
+        }
+      ],
+      "groups": [
+        {
+          "group": "age_lt50",
+          "n": 87056,
+          "positives": 879,
+          "negatives": 86177,
+          "reviewed": 436,
+          "captured": 95,
+          "false_positives": 341,
+          "prevalence": 0.010096949090240765,
+          "selection_rate": 0.005008270538503951,
+          "recall": 0.1080773606370876,
+          "false_positive_selection_rate": 0.003956972277986005,
+          "precision": 0.21788990825688073
+        },
+        {
+          "group": "age_ge50",
+          "n": 21112,
+          "positives": 571,
+          "negatives": 20541,
+          "reviewed": 645,
+          "captured": 167,
+          "false_positives": 478,
+          "prevalence": 0.027046229632436528,
+          "selection_rate": 0.03055134520651762,
+          "recall": 0.29246935201401053,
+          "false_positive_selection_rate": 0.02327053210651867,
+          "precision": 0.2589147286821705
+        }
+      ]
+    },
+    {
+      "month": 6,
+      "capture_overlap": {
+        "both": 231,
+        "frozen_only": 20,
+        "scheduled_only": 31,
+        "neither": 1168
+      }
+    },
+    {
+      "month": 7,
+      "policy": "frozen",
+      "calibration": [
+        {
+          "lower": 0,
+          "upper": 0.1,
+          "upper_inclusive": false,
+          "count": 95094,
+          "mean_probability": 0.010512739072822241,
+          "positive_fraction": 0.011041706101331315
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "upper_inclusive": false,
+          "count": 1346,
+          "mean_probability": 0.1349332145970326,
+          "positive_fraction": 0.17310549777117384
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "upper_inclusive": false,
+          "count": 300,
+          "mean_probability": 0.23904278159961148,
+          "positive_fraction": 0.2833333333333333
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "upper_inclusive": false,
+          "count": 71,
+          "mean_probability": 0.3371833429566782,
+          "positive_fraction": 0.5211267605633803
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "upper_inclusive": false,
+          "count": 21,
+          "mean_probability": 0.43811378299391524,
+          "positive_fraction": 0.6666666666666666
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "upper_inclusive": false,
+          "count": 8,
+          "mean_probability": 0.5478871108371328,
+          "positive_fraction": 0.75
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "upper_inclusive": false,
+          "count": 3,
+          "mean_probability": 0.6363052844770283,
+          "positive_fraction": 1
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "upper_inclusive": false,
+          "count": 0,
+          "mean_probability": null,
+          "positive_fraction": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "upper_inclusive": false,
+          "count": 0,
+          "mean_probability": null,
+          "positive_fraction": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1,
+          "upper_inclusive": true,
+          "count": 0,
+          "mean_probability": null,
+          "positive_fraction": null
+        }
+      ],
+      "groups": [
+        {
+          "group": "age_lt50",
+          "n": 84176,
+          "positives": 1010,
+          "negatives": 83166,
+          "reviewed": 505,
+          "captured": 121,
+          "false_positives": 384,
+          "prevalence": 0.011998669454476335,
+          "selection_rate": 0.0059993347272381675,
+          "recall": 0.1198019801980198,
+          "false_positive_selection_rate": 0.004617271481134117,
+          "precision": 0.2396039603960396
+        },
+        {
+          "group": "age_ge50",
+          "n": 12667,
+          "positives": 418,
+          "negatives": 12249,
+          "reviewed": 463,
+          "captured": 140,
+          "false_positives": 323,
+          "prevalence": 0.03299913160179995,
+          "selection_rate": 0.03655166969290282,
+          "recall": 0.3349282296650718,
+          "false_positive_selection_rate": 0.026369499550983753,
+          "precision": 0.3023758099352052
+        }
+      ]
+    },
+    {
+      "month": 7,
+      "policy": "scheduled",
+      "calibration": [
+        {
+          "lower": 0,
+          "upper": 0.1,
+          "upper_inclusive": false,
+          "count": 95850,
+          "mean_probability": 0.006966833823894016,
+          "positive_fraction": 0.012050078247261346
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "upper_inclusive": false,
+          "count": 794,
+          "mean_probability": 0.1345092525367067,
+          "positive_fraction": 0.22544080604534006
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "upper_inclusive": false,
+          "count": 149,
+          "mean_probability": 0.23816594502695537,
+          "positive_fraction": 0.40939597315436244
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "upper_inclusive": false,
+          "count": 33,
+          "mean_probability": 0.34558471936590723,
+          "positive_fraction": 0.5757575757575758
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "upper_inclusive": false,
+          "count": 11,
+          "mean_probability": 0.4477315531252447,
+          "positive_fraction": 0.8181818181818182
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "upper_inclusive": false,
+          "count": 6,
+          "mean_probability": 0.559165722572529,
+          "positive_fraction": 0.8333333333333334
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "upper_inclusive": false,
+          "count": 0,
+          "mean_probability": null,
+          "positive_fraction": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "upper_inclusive": false,
+          "count": 0,
+          "mean_probability": null,
+          "positive_fraction": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "upper_inclusive": false,
+          "count": 0,
+          "mean_probability": null,
+          "positive_fraction": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1,
+          "upper_inclusive": true,
+          "count": 0,
+          "mean_probability": null,
+          "positive_fraction": null
+        }
+      ],
+      "groups": [
+        {
+          "group": "age_lt50",
+          "n": 84176,
+          "positives": 1010,
+          "negatives": 83166,
+          "reviewed": 532,
+          "captured": 133,
+          "false_positives": 399,
+          "prevalence": 0.011998669454476335,
+          "selection_rate": 0.006320091237407337,
+          "recall": 0.1316831683168317,
+          "false_positive_selection_rate": 0.004797633648365919,
+          "precision": 0.25
+        },
+        {
+          "group": "age_ge50",
+          "n": 12667,
+          "positives": 418,
+          "negatives": 12249,
+          "reviewed": 436,
+          "captured": 135,
+          "false_positives": 301,
+          "prevalence": 0.03299913160179995,
+          "selection_rate": 0.0344201468382411,
+          "recall": 0.3229665071770335,
+          "false_positive_selection_rate": 0.024573434566087026,
+          "precision": 0.30963302752293576
+        }
+      ]
+    },
+    {
+      "month": 7,
+      "capture_overlap": {
+        "both": 238,
+        "frozen_only": 23,
+        "scheduled_only": 30,
+        "neither": 1137
+      }
+    }
+  ],
+  "bootstrap": {
+    "replicates": 1000,
+    "seed": 20260916,
+    "monthly_difference_counts": [
+      [
+        20,
+        108117,
+        31
+      ],
+      [
+        23,
+        96790,
+        30
+      ]
+    ],
+    "observed_difference": 18,
+    "percentile_ci95": [
+      -1,
+      37
+    ],
+    "scope": "within-month row bootstrap of fixed selections; no reranking, refitting or future-month uncertainty"
+  },
+  "pooled_groups": [
+    {
+      "policy": "frozen",
+      "group": "age_lt50",
+      "n": 171232,
+      "positives": 1889,
+      "negatives": 169343,
+      "reviewed": 932,
+      "captured": 209,
+      "false_positives": 723,
+      "prevalence": 0.011031816482900393,
+      "selection_rate": 0.005442907867688283,
+      "recall": 0.11064055055584966,
+      "false_positive_selection_rate": 0.004269441311421198,
+      "precision": 0.22424892703862662
+    },
+    {
+      "policy": "frozen",
+      "group": "age_ge50",
+      "n": 33779,
+      "positives": 989,
+      "negatives": 32790,
+      "reviewed": 1117,
+      "captured": 303,
+      "false_positives": 814,
+      "prevalence": 0.02927854584209124,
+      "selection_rate": 0.03306788241214956,
+      "recall": 0.3063700707785642,
+      "false_positive_selection_rate": 0.02482464165904239,
+      "precision": 0.2712623097582811
+    },
+    {
+      "policy": "scheduled",
+      "group": "age_lt50",
+      "n": 171232,
+      "positives": 1889,
+      "negatives": 169343,
+      "reviewed": 968,
+      "captured": 228,
+      "false_positives": 740,
+      "prevalence": 0.011031816482900393,
+      "selection_rate": 0.005653148944122594,
+      "recall": 0.12069878242456326,
+      "false_positive_selection_rate": 0.004369829281399291,
+      "precision": 0.23553719008264462
+    },
+    {
+      "policy": "scheduled",
+      "group": "age_ge50",
+      "n": 33779,
+      "positives": 989,
+      "negatives": 32790,
+      "reviewed": 1081,
+      "captured": 302,
+      "false_positives": 779,
+      "prevalence": 0.02927854584209124,
+      "selection_rate": 0.03200213150182066,
+      "recall": 0.30535894843276035,
+      "false_positive_selection_rate": 0.023757243061909118,
+      "precision": 0.2793709528214616
+    }
+  ],
+  "hypothetical_utility": [
+    {
+      "value_per_positive": 1,
+      "cost_per_refit": 0,
+      "cost_per_review": 1,
+      "policy": "frozen",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": -1537
+    },
+    {
+      "value_per_positive": 1,
+      "cost_per_refit": 0,
+      "cost_per_review": 1,
+      "policy": "scheduled",
+      "captured": 530,
+      "refits": 4,
+      "reviewed": 2049,
+      "utility": -1519
+    },
+    {
+      "value_per_positive": 1,
+      "cost_per_refit": 0,
+      "cost_per_review": 1,
+      "policy": "evidence",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": -1537
+    },
+    {
+      "value_per_positive": 1,
+      "cost_per_refit": 5,
+      "cost_per_review": 1,
+      "policy": "frozen",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": -1537
+    },
+    {
+      "value_per_positive": 1,
+      "cost_per_refit": 5,
+      "cost_per_review": 1,
+      "policy": "scheduled",
+      "captured": 530,
+      "refits": 4,
+      "reviewed": 2049,
+      "utility": -1539
+    },
+    {
+      "value_per_positive": 1,
+      "cost_per_refit": 5,
+      "cost_per_review": 1,
+      "policy": "evidence",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": -1537
+    },
+    {
+      "value_per_positive": 1,
+      "cost_per_refit": 50,
+      "cost_per_review": 1,
+      "policy": "frozen",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": -1537
+    },
+    {
+      "value_per_positive": 1,
+      "cost_per_refit": 50,
+      "cost_per_review": 1,
+      "policy": "scheduled",
+      "captured": 530,
+      "refits": 4,
+      "reviewed": 2049,
+      "utility": -1719
+    },
+    {
+      "value_per_positive": 1,
+      "cost_per_refit": 50,
+      "cost_per_review": 1,
+      "policy": "evidence",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": -1537
+    },
+    {
+      "value_per_positive": 10,
+      "cost_per_refit": 0,
+      "cost_per_review": 1,
+      "policy": "frozen",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": 3071
+    },
+    {
+      "value_per_positive": 10,
+      "cost_per_refit": 0,
+      "cost_per_review": 1,
+      "policy": "scheduled",
+      "captured": 530,
+      "refits": 4,
+      "reviewed": 2049,
+      "utility": 3251
+    },
+    {
+      "value_per_positive": 10,
+      "cost_per_refit": 0,
+      "cost_per_review": 1,
+      "policy": "evidence",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": 3071
+    },
+    {
+      "value_per_positive": 10,
+      "cost_per_refit": 5,
+      "cost_per_review": 1,
+      "policy": "frozen",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": 3071
+    },
+    {
+      "value_per_positive": 10,
+      "cost_per_refit": 5,
+      "cost_per_review": 1,
+      "policy": "scheduled",
+      "captured": 530,
+      "refits": 4,
+      "reviewed": 2049,
+      "utility": 3231
+    },
+    {
+      "value_per_positive": 10,
+      "cost_per_refit": 5,
+      "cost_per_review": 1,
+      "policy": "evidence",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": 3071
+    },
+    {
+      "value_per_positive": 10,
+      "cost_per_refit": 50,
+      "cost_per_review": 1,
+      "policy": "frozen",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": 3071
+    },
+    {
+      "value_per_positive": 10,
+      "cost_per_refit": 50,
+      "cost_per_review": 1,
+      "policy": "scheduled",
+      "captured": 530,
+      "refits": 4,
+      "reviewed": 2049,
+      "utility": 3051
+    },
+    {
+      "value_per_positive": 10,
+      "cost_per_refit": 50,
+      "cost_per_review": 1,
+      "policy": "evidence",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": 3071
+    },
+    {
+      "value_per_positive": 100,
+      "cost_per_refit": 0,
+      "cost_per_review": 1,
+      "policy": "frozen",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": 49151
+    },
+    {
+      "value_per_positive": 100,
+      "cost_per_refit": 0,
+      "cost_per_review": 1,
+      "policy": "scheduled",
+      "captured": 530,
+      "refits": 4,
+      "reviewed": 2049,
+      "utility": 50951
+    },
+    {
+      "value_per_positive": 100,
+      "cost_per_refit": 0,
+      "cost_per_review": 1,
+      "policy": "evidence",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": 49151
+    },
+    {
+      "value_per_positive": 100,
+      "cost_per_refit": 5,
+      "cost_per_review": 1,
+      "policy": "frozen",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": 49151
+    },
+    {
+      "value_per_positive": 100,
+      "cost_per_refit": 5,
+      "cost_per_review": 1,
+      "policy": "scheduled",
+      "captured": 530,
+      "refits": 4,
+      "reviewed": 2049,
+      "utility": 50931
+    },
+    {
+      "value_per_positive": 100,
+      "cost_per_refit": 5,
+      "cost_per_review": 1,
+      "policy": "evidence",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": 49151
+    },
+    {
+      "value_per_positive": 100,
+      "cost_per_refit": 50,
+      "cost_per_review": 1,
+      "policy": "frozen",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": 49151
+    },
+    {
+      "value_per_positive": 100,
+      "cost_per_refit": 50,
+      "cost_per_review": 1,
+      "policy": "scheduled",
+      "captured": 530,
+      "refits": 4,
+      "reviewed": 2049,
+      "utility": 50751
+    },
+    {
+      "value_per_positive": 100,
+      "cost_per_refit": 50,
+      "cost_per_review": 1,
+      "policy": "evidence",
+      "captured": 512,
+      "refits": 0,
+      "reviewed": 2049,
+      "utility": 49151
+    }
+  ],
+  "utility_warning": "assumed units, not dollars or causal savings; entire replay refit count versus final-month captures",
+  "source_sha256": {
+    "fraud_model_watch/diagnostics.py": "bcb00cec0782adfcae5895797e94c4d31c72c25645982a0c931796836f66dcff",
+    "docs/COMPLETION_PLAN.md": "a7845fdc765b7d699531e57cdd13cffe3afe15907ca48adb4ed00757a8b67cb0",
+    "requirements.txt": "ecde24911a182a7656a036d0b9db775784a5d14a5f0c1375a8ba10dd6783f2dc"
+  }
+}
