@@ -1,0 +1,1553 @@
+{
+  "protocol": "S3",
+  "python": "3.12.1",
+  "numpy": "2.3.3",
+  "seed_first": 3000,
+  "seed_last": 3499,
+  "runs_per_setting": 500,
+  "scope": "independent binomial positive-label counts, no model fitting or bank outcomes",
+  "rows": [
+    {
+      "n": 30,
+      "regime": "stable",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.45,
+      "pre_change_request_fraction": 0.184,
+      "post_change_request_fraction": 0.43,
+      "mean_requests": 0.976,
+      "median_first_post_change_decision": 8,
+      "any_request_count": 225,
+      "any_request_ci95": [
+        0.4058014117029947,
+        0.4947931104885454
+      ],
+      "pre_change_request_count": 92,
+      "pre_change_request_ci95": [
+        0.15098874458122757,
+        0.22079907056465825
+      ],
+      "post_change_request_count": 215,
+      "post_change_request_ci95": [
+        0.38613125074771387,
+        0.4747011968615927
+      ],
+      "no_post_change_request_count": 285,
+      "first_post_change_decision_counts": {
+        "7": 28,
+        "8": 84,
+        "9": 36,
+        "10": 20,
+        "11": 15,
+        "12": 22,
+        "13": 10
+      }
+    },
+    {
+      "n": 30,
+      "regime": "stable",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.002,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.002,
+      "mean_requests": 0.002,
+      "median_first_post_change_decision": 13,
+      "any_request_count": 1,
+      "any_request_ci95": [
+        0.000050634334007487,
+        0.011092476899002649
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 1,
+      "post_change_request_ci95": [
+        0.000050634334007487,
+        0.011092476899002649
+      ],
+      "no_post_change_request_count": 499,
+      "first_post_change_decision_counts": {
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 1
+      }
+    },
+    {
+      "n": 30,
+      "regime": "four_point_drop",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.596,
+      "pre_change_request_fraction": 0.168,
+      "post_change_request_fraction": 0.586,
+      "mean_requests": 1.324,
+      "median_first_post_change_decision": 8,
+      "any_request_count": 298,
+      "any_request_ci95": [
+        0.5515258925686295,
+        0.6393321716507364
+      ],
+      "pre_change_request_count": 84,
+      "pre_change_request_ci95": [
+        0.13627381590512402,
+        0.2037110235778416
+      ],
+      "post_change_request_count": 293,
+      "post_change_request_ci95": [
+        0.5414239973279712,
+        0.6295531301946783
+      ],
+      "no_post_change_request_count": 207,
+      "first_post_change_decision_counts": {
+        "7": 36,
+        "8": 115,
+        "9": 49,
+        "10": 27,
+        "11": 28,
+        "12": 23,
+        "13": 15
+      }
+    },
+    {
+      "n": 30,
+      "regime": "four_point_drop",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.006,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.006,
+      "mean_requests": 0.006,
+      "median_first_post_change_decision": 9,
+      "any_request_count": 3,
+      "any_request_ci95": [
+        0.0012390575435350217,
+        0.017433673726060524
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 3,
+      "post_change_request_ci95": [
+        0.0012390575435350217,
+        0.017433673726060524
+      ],
+      "no_post_change_request_count": 497,
+      "first_post_change_decision_counts": {
+        "7": 1,
+        "8": 0,
+        "9": 1,
+        "10": 1,
+        "11": 0,
+        "12": 0,
+        "13": 0
+      }
+    },
+    {
+      "n": 30,
+      "regime": "eight_point_drop",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.768,
+      "pre_change_request_fraction": 0.182,
+      "post_change_request_fraction": 0.766,
+      "mean_requests": 1.934,
+      "median_first_post_change_decision": 8,
+      "any_request_count": 384,
+      "any_request_ci95": [
+        0.7284756793031023,
+        0.8043214148864202
+      ],
+      "pre_change_request_count": 91,
+      "pre_change_request_ci95": [
+        0.14914390172410255,
+        0.2186684725106921
+      ],
+      "post_change_request_count": 383,
+      "post_change_request_ci95": [
+        0.726377678235778,
+        0.8024436351757325
+      ],
+      "no_post_change_request_count": 117,
+      "first_post_change_decision_counts": {
+        "7": 52,
+        "8": 227,
+        "9": 29,
+        "10": 26,
+        "11": 20,
+        "12": 14,
+        "13": 15
+      }
+    },
+    {
+      "n": 30,
+      "regime": "eight_point_drop",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.004,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.004,
+      "mean_requests": 0.006,
+      "median_first_post_change_decision": 10.5,
+      "any_request_count": 2,
+      "any_request_ci95": [
+        0.00048478617610388795,
+        0.014374078562200318
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 2,
+      "post_change_request_ci95": [
+        0.00048478617610388795,
+        0.014374078562200318
+      ],
+      "no_post_change_request_count": 498,
+      "first_post_change_decision_counts": {
+        "7": 0,
+        "8": 0,
+        "9": 1,
+        "10": 0,
+        "11": 0,
+        "12": 1,
+        "13": 0
+      }
+    },
+    {
+      "n": 60,
+      "regime": "stable",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.392,
+      "pre_change_request_fraction": 0.156,
+      "post_change_request_fraction": 0.366,
+      "mean_requests": 0.786,
+      "median_first_post_change_decision": 9,
+      "any_request_count": 196,
+      "any_request_ci95": [
+        0.34895738559766165,
+        0.43632748326169346
+      ],
+      "pre_change_request_count": 78,
+      "pre_change_request_ci95": [
+        0.1253074332847719,
+        0.19082611367156693
+      ],
+      "post_change_request_count": 183,
+      "post_change_request_ci95": [
+        0.32367808937250075,
+        0.40991672613520763
+      ],
+      "no_post_change_request_count": 317,
+      "first_post_change_decision_counts": {
+        "7": 25,
+        "8": 60,
+        "9": 21,
+        "10": 28,
+        "11": 15,
+        "12": 19,
+        "13": 15
+      }
+    },
+    {
+      "n": 60,
+      "regime": "stable",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0,
+      "mean_requests": 0,
+      "median_first_post_change_decision": null,
+      "any_request_count": 0,
+      "any_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 0,
+      "post_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "no_post_change_request_count": 500,
+      "first_post_change_decision_counts": {
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0
+      }
+    },
+    {
+      "n": 60,
+      "regime": "four_point_drop",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.626,
+      "pre_change_request_fraction": 0.132,
+      "post_change_request_fraction": 0.622,
+      "mean_requests": 1.38,
+      "median_first_post_change_decision": 8,
+      "any_request_count": 313,
+      "any_request_ci95": [
+        0.5819431236715247,
+        0.6685574709829284
+      ],
+      "pre_change_request_count": 66,
+      "pre_change_request_ci95": [
+        0.10357981897069121,
+        0.16485431184450375
+      ],
+      "post_change_request_count": 311,
+      "post_change_request_ci95": [
+        0.5778776694655094,
+        0.6646706155827975
+      ],
+      "no_post_change_request_count": 189,
+      "first_post_change_decision_counts": {
+        "7": 51,
+        "8": 124,
+        "9": 38,
+        "10": 42,
+        "11": 26,
+        "12": 18,
+        "13": 12
+      }
+    },
+    {
+      "n": 60,
+      "regime": "four_point_drop",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.012,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.012,
+      "mean_requests": 0.012,
+      "median_first_post_change_decision": 11.5,
+      "any_request_count": 6,
+      "any_request_ci95": [
+        0.004416172285788999,
+        0.02593492726533735
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 6,
+      "post_change_request_ci95": [
+        0.004416172285788999,
+        0.02593492726533735
+      ],
+      "no_post_change_request_count": 494,
+      "first_post_change_decision_counts": {
+        "7": 0,
+        "8": 1,
+        "9": 0,
+        "10": 0,
+        "11": 2,
+        "12": 2,
+        "13": 1
+      }
+    },
+    {
+      "n": 60,
+      "regime": "eight_point_drop",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.806,
+      "pre_change_request_fraction": 0.132,
+      "post_change_request_fraction": 0.806,
+      "mean_requests": 2.192,
+      "median_first_post_change_decision": 8,
+      "any_request_count": 403,
+      "any_request_ci95": [
+        0.7685698733068185,
+        0.8397648446784649
+      ],
+      "pre_change_request_count": 66,
+      "pre_change_request_ci95": [
+        0.10357981897069121,
+        0.16485431184450375
+      ],
+      "post_change_request_count": 403,
+      "post_change_request_ci95": [
+        0.7685698733068185,
+        0.8397648446784649
+      ],
+      "no_post_change_request_count": 97,
+      "first_post_change_decision_counts": {
+        "7": 66,
+        "8": 227,
+        "9": 44,
+        "10": 34,
+        "11": 18,
+        "12": 9,
+        "13": 5
+      }
+    },
+    {
+      "n": 60,
+      "regime": "eight_point_drop",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.048,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.048,
+      "mean_requests": 0.06,
+      "median_first_post_change_decision": 10,
+      "any_request_count": 24,
+      "any_request_ci95": [
+        0.030993168793500482,
+        0.0705807962572185
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 24,
+      "post_change_request_ci95": [
+        0.030993168793500482,
+        0.0705807962572185
+      ],
+      "no_post_change_request_count": 476,
+      "first_post_change_decision_counts": {
+        "7": 1,
+        "8": 6,
+        "9": 3,
+        "10": 4,
+        "11": 5,
+        "12": 3,
+        "13": 2
+      }
+    },
+    {
+      "n": 100,
+      "regime": "stable",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.306,
+      "pre_change_request_fraction": 0.11,
+      "post_change_request_fraction": 0.28,
+      "mean_requests": 0.566,
+      "median_first_post_change_decision": 9,
+      "any_request_count": 153,
+      "any_request_ci95": [
+        0.2658573921886137,
+        0.3484546086773112
+      ],
+      "pre_change_request_count": 55,
+      "pre_change_request_ci95": [
+        0.08394905540681608,
+        0.1407658447731439
+      ],
+      "post_change_request_count": 140,
+      "post_change_request_ci95": [
+        0.24104491652216792,
+        0.32157906673065645
+      ],
+      "no_post_change_request_count": 360,
+      "first_post_change_decision_counts": {
+        "7": 17,
+        "8": 42,
+        "9": 22,
+        "10": 16,
+        "11": 15,
+        "12": 10,
+        "13": 18
+      }
+    },
+    {
+      "n": 100,
+      "regime": "stable",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.002,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.002,
+      "mean_requests": 0.002,
+      "median_first_post_change_decision": 7,
+      "any_request_count": 1,
+      "any_request_ci95": [
+        0.000050634334007487,
+        0.011092476899002649
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 1,
+      "post_change_request_ci95": [
+        0.000050634334007487,
+        0.011092476899002649
+      ],
+      "no_post_change_request_count": 499,
+      "first_post_change_decision_counts": {
+        "7": 1,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0
+      }
+    },
+    {
+      "n": 100,
+      "regime": "four_point_drop",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.576,
+      "pre_change_request_fraction": 0.106,
+      "post_change_request_fraction": 0.572,
+      "mean_requests": 1.298,
+      "median_first_post_change_decision": 8,
+      "any_request_count": 288,
+      "any_request_ci95": [
+        0.5313403297025485,
+        0.6197558233935653
+      ],
+      "pre_change_request_count": 53,
+      "pre_change_request_ci95": [
+        0.08041466042013704,
+        0.13635202648579123
+      ],
+      "post_change_request_count": 286,
+      "post_change_request_ci95": [
+        0.5273119255877048,
+        0.6158318282858808
+      ],
+      "no_post_change_request_count": 214,
+      "first_post_change_decision_counts": {
+        "7": 35,
+        "8": 128,
+        "9": 38,
+        "10": 41,
+        "11": 18,
+        "12": 14,
+        "13": 12
+      }
+    },
+    {
+      "n": 100,
+      "regime": "four_point_drop",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.014,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.014,
+      "mean_requests": 0.014,
+      "median_first_post_change_decision": 8,
+      "any_request_count": 7,
+      "any_request_ci95": [
+        0.005646761070671558,
+        0.02863161618333614
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 7,
+      "post_change_request_ci95": [
+        0.005646761070671558,
+        0.02863161618333614
+      ],
+      "no_post_change_request_count": 493,
+      "first_post_change_decision_counts": {
+        "7": 1,
+        "8": 3,
+        "9": 1,
+        "10": 1,
+        "11": 0,
+        "12": 1,
+        "13": 0
+      }
+    },
+    {
+      "n": 100,
+      "regime": "eight_point_drop",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.874,
+      "pre_change_request_fraction": 0.086,
+      "post_change_request_fraction": 0.874,
+      "mean_requests": 2.25,
+      "median_first_post_change_decision": 8,
+      "any_request_count": 437,
+      "any_request_ci95": [
+        0.8416860057014842,
+        0.9018038822152771
+      ],
+      "pre_change_request_count": 43,
+      "pre_change_request_ci95": [
+        0.06293676656622828,
+        0.11409366934605589
+      ],
+      "post_change_request_count": 437,
+      "post_change_request_ci95": [
+        0.8416860057014842,
+        0.9018038822152771
+      ],
+      "no_post_change_request_count": 63,
+      "first_post_change_decision_counts": {
+        "7": 45,
+        "8": 270,
+        "9": 38,
+        "10": 32,
+        "11": 18,
+        "12": 21,
+        "13": 13
+      }
+    },
+    {
+      "n": 100,
+      "regime": "eight_point_drop",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.124,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.124,
+      "mean_requests": 0.162,
+      "median_first_post_change_decision": 9,
+      "any_request_count": 62,
+      "any_request_ci95": [
+        0.09640628315082166,
+        0.15612924565137248
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 62,
+      "post_change_request_ci95": [
+        0.09640628315082166,
+        0.15612924565137248
+      ],
+      "no_post_change_request_count": 438,
+      "first_post_change_decision_counts": {
+        "7": 0,
+        "8": 23,
+        "9": 9,
+        "10": 8,
+        "11": 5,
+        "12": 10,
+        "13": 7
+      }
+    },
+    {
+      "n": 200,
+      "regime": "stable",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.144,
+      "pre_change_request_fraction": 0.032,
+      "post_change_request_fraction": 0.132,
+      "mean_requests": 0.232,
+      "median_first_post_change_decision": 9,
+      "any_request_count": 72,
+      "any_request_ci95": [
+        0.11440713117916822,
+        0.17787610802556425
+      ],
+      "pre_change_request_count": 16,
+      "pre_change_request_ci95": [
+        0.01839918532363995,
+        0.05144676829165171
+      ],
+      "post_change_request_count": 66,
+      "post_change_request_ci95": [
+        0.10357981897069121,
+        0.16485431184450375
+      ],
+      "no_post_change_request_count": 434,
+      "first_post_change_decision_counts": {
+        "7": 16,
+        "8": 16,
+        "9": 7,
+        "10": 7,
+        "11": 6,
+        "12": 3,
+        "13": 11
+      }
+    },
+    {
+      "n": 200,
+      "regime": "stable",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.002,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.002,
+      "mean_requests": 0.002,
+      "median_first_post_change_decision": 11,
+      "any_request_count": 1,
+      "any_request_ci95": [
+        0.000050634334007487,
+        0.011092476899002649
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 1,
+      "post_change_request_ci95": [
+        0.000050634334007487,
+        0.011092476899002649
+      ],
+      "no_post_change_request_count": 499,
+      "first_post_change_decision_counts": {
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 1,
+        "12": 0,
+        "13": 0
+      }
+    },
+    {
+      "n": 200,
+      "regime": "four_point_drop",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.544,
+      "pre_change_request_fraction": 0.036,
+      "post_change_request_fraction": 0.542,
+      "mean_requests": 1.108,
+      "median_first_post_change_decision": 8,
+      "any_request_count": 272,
+      "any_request_ci95": [
+        0.4991931616058599,
+        0.5882836759276923
+      ],
+      "pre_change_request_count": 18,
+      "pre_change_request_ci95": [
+        0.02147285658609329,
+        0.0563001762017913
+      ],
+      "post_change_request_count": 271,
+      "post_change_request_ci95": [
+        0.4971899976724385,
+        0.5863106249290783
+      ],
+      "no_post_change_request_count": 229,
+      "first_post_change_decision_counts": {
+        "7": 29,
+        "8": 111,
+        "9": 41,
+        "10": 31,
+        "11": 26,
+        "12": 24,
+        "13": 9
+      }
+    },
+    {
+      "n": 200,
+      "regime": "four_point_drop",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.05,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.05,
+      "mean_requests": 0.066,
+      "median_first_post_change_decision": 9,
+      "any_request_count": 25,
+      "any_request_ci95": [
+        0.0326151801493236,
+        0.0729276216504791
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 25,
+      "post_change_request_ci95": [
+        0.0326151801493236,
+        0.0729276216504791
+      ],
+      "no_post_change_request_count": 475,
+      "first_post_change_decision_counts": {
+        "7": 1,
+        "8": 8,
+        "9": 5,
+        "10": 1,
+        "11": 2,
+        "12": 4,
+        "13": 4
+      }
+    },
+    {
+      "n": 200,
+      "regime": "eight_point_drop",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.894,
+      "pre_change_request_fraction": 0.038,
+      "post_change_request_fraction": 0.894,
+      "mean_requests": 2.366,
+      "median_first_post_change_decision": 8,
+      "any_request_count": 447,
+      "any_request_ci95": [
+        0.8636479735142087,
+        0.919585339579863
+      ],
+      "pre_change_request_count": 19,
+      "pre_change_request_ci95": [
+        0.023030770806247537,
+        0.05870729046372005
+      ],
+      "post_change_request_count": 447,
+      "post_change_request_ci95": [
+        0.8636479735142087,
+        0.919585339579863
+      ],
+      "no_post_change_request_count": 53,
+      "first_post_change_decision_counts": {
+        "7": 35,
+        "8": 315,
+        "9": 34,
+        "10": 33,
+        "11": 13,
+        "12": 6,
+        "13": 11
+      }
+    },
+    {
+      "n": 200,
+      "regime": "eight_point_drop",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.364,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.364,
+      "mean_requests": 0.608,
+      "median_first_post_change_decision": 9,
+      "any_request_count": 182,
+      "any_request_ci95": [
+        0.32173892611037225,
+        0.40787974836336366
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 182,
+      "post_change_request_ci95": [
+        0.32173892611037225,
+        0.40787974836336366
+      ],
+      "no_post_change_request_count": 318,
+      "first_post_change_decision_counts": {
+        "7": 1,
+        "8": 74,
+        "9": 28,
+        "10": 27,
+        "11": 16,
+        "12": 20,
+        "13": 16
+      }
+    },
+    {
+      "n": 400,
+      "regime": "stable",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.036,
+      "pre_change_request_fraction": 0.01,
+      "post_change_request_fraction": 0.032,
+      "mean_requests": 0.05,
+      "median_first_post_change_decision": 10,
+      "any_request_count": 18,
+      "any_request_ci95": [
+        0.02147285658609329,
+        0.0563001762017913
+      ],
+      "pre_change_request_count": 5,
+      "pre_change_request_ci95": [
+        0.0032547214070305034,
+        0.023181388069659612
+      ],
+      "post_change_request_count": 16,
+      "post_change_request_ci95": [
+        0.01839918532363995,
+        0.05144676829165171
+      ],
+      "no_post_change_request_count": 484,
+      "first_post_change_decision_counts": {
+        "7": 3,
+        "8": 3,
+        "9": 1,
+        "10": 3,
+        "11": 3,
+        "12": 3,
+        "13": 0
+      }
+    },
+    {
+      "n": 400,
+      "regime": "stable",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.002,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.002,
+      "mean_requests": 0.002,
+      "median_first_post_change_decision": 9,
+      "any_request_count": 1,
+      "any_request_ci95": [
+        0.000050634334007487,
+        0.011092476899002649
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 1,
+      "post_change_request_ci95": [
+        0.000050634334007487,
+        0.011092476899002649
+      ],
+      "no_post_change_request_count": 499,
+      "first_post_change_decision_counts": {
+        "7": 0,
+        "8": 0,
+        "9": 1,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0
+      }
+    },
+    {
+      "n": 400,
+      "regime": "four_point_drop",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.442,
+      "pre_change_request_fraction": 0.012,
+      "post_change_request_fraction": 0.442,
+      "mean_requests": 0.846,
+      "median_first_post_change_decision": 9,
+      "any_request_count": 221,
+      "any_request_ci95": [
+        0.3979247882925459,
+        0.4867648920514434
+      ],
+      "pre_change_request_count": 6,
+      "pre_change_request_ci95": [
+        0.004416172285788999,
+        0.02593492726533735
+      ],
+      "post_change_request_count": 221,
+      "post_change_request_ci95": [
+        0.3979247882925459,
+        0.4867648920514434
+      ],
+      "no_post_change_request_count": 279,
+      "first_post_change_decision_counts": {
+        "7": 15,
+        "8": 94,
+        "9": 41,
+        "10": 29,
+        "11": 19,
+        "12": 14,
+        "13": 9
+      }
+    },
+    {
+      "n": 400,
+      "regime": "four_point_drop",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.13,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.13,
+      "mean_requests": 0.192,
+      "median_first_post_change_decision": 9,
+      "any_request_count": 65,
+      "any_request_ci95": [
+        0.10178293283994597,
+        0.1626764819370088
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 65,
+      "post_change_request_ci95": [
+        0.10178293283994597,
+        0.1626764819370088
+      ],
+      "no_post_change_request_count": 435,
+      "first_post_change_decision_counts": {
+        "7": 2,
+        "8": 18,
+        "9": 13,
+        "10": 8,
+        "11": 11,
+        "12": 7,
+        "13": 6
+      }
+    },
+    {
+      "n": 400,
+      "regime": "eight_point_drop",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.942,
+      "pre_change_request_fraction": 0.006,
+      "post_change_request_fraction": 0.942,
+      "mean_requests": 2.606,
+      "median_first_post_change_decision": 8,
+      "any_request_count": 471,
+      "any_request_ci95": [
+        0.9177617791063264,
+        0.9608161312028327
+      ],
+      "pre_change_request_count": 3,
+      "pre_change_request_ci95": [
+        0.0012390575435350217,
+        0.017433673726060524
+      ],
+      "post_change_request_count": 471,
+      "post_change_request_ci95": [
+        0.9177617791063264,
+        0.9608161312028327
+      ],
+      "no_post_change_request_count": 29,
+      "first_post_change_decision_counts": {
+        "7": 21,
+        "8": 392,
+        "9": 24,
+        "10": 18,
+        "11": 8,
+        "12": 3,
+        "13": 5
+      }
+    },
+    {
+      "n": 400,
+      "regime": "eight_point_drop",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.79,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.79,
+      "mean_requests": 1.74,
+      "median_first_post_change_decision": 8,
+      "any_request_count": 395,
+      "any_request_ci95": [
+        0.7516321895128472,
+        0.82489777470715
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 395,
+      "post_change_request_ci95": [
+        0.7516321895128472,
+        0.82489777470715
+      ],
+      "no_post_change_request_count": 105,
+      "first_post_change_decision_counts": {
+        "7": 2,
+        "8": 260,
+        "9": 47,
+        "10": 31,
+        "11": 23,
+        "12": 22,
+        "13": 10
+      }
+    },
+    {
+      "n": 800,
+      "regime": "stable",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0,
+      "mean_requests": 0,
+      "median_first_post_change_decision": null,
+      "any_request_count": 0,
+      "any_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 0,
+      "post_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "no_post_change_request_count": 500,
+      "first_post_change_decision_counts": {
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0
+      }
+    },
+    {
+      "n": 800,
+      "regime": "stable",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0,
+      "mean_requests": 0,
+      "median_first_post_change_decision": null,
+      "any_request_count": 0,
+      "any_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 0,
+      "post_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "no_post_change_request_count": 500,
+      "first_post_change_decision_counts": {
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0
+      }
+    },
+    {
+      "n": 800,
+      "regime": "four_point_drop",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.412,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.412,
+      "mean_requests": 0.69,
+      "median_first_post_change_decision": 9,
+      "any_request_count": 206,
+      "any_request_ci95": [
+        0.3684895939697187,
+        0.4565570879877541
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 206,
+      "post_change_request_ci95": [
+        0.3684895939697187,
+        0.4565570879877541
+      ],
+      "no_post_change_request_count": 294,
+      "first_post_change_decision_counts": {
+        "7": 2,
+        "8": 87,
+        "9": 36,
+        "10": 24,
+        "11": 19,
+        "12": 25,
+        "13": 13
+      }
+    },
+    {
+      "n": 800,
+      "regime": "four_point_drop",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.398,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.398,
+      "mean_requests": 0.626,
+      "median_first_post_change_decision": 9,
+      "any_request_count": 199,
+      "any_request_ci95": [
+        0.3548092568226406,
+        0.442404137193211
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 199,
+      "post_change_request_ci95": [
+        0.3548092568226406,
+        0.442404137193211
+      ],
+      "no_post_change_request_count": 301,
+      "first_post_change_decision_counts": {
+        "7": 1,
+        "8": 75,
+        "9": 40,
+        "10": 26,
+        "11": 20,
+        "12": 23,
+        "13": 14
+      }
+    },
+    {
+      "n": 800,
+      "regime": "eight_point_drop",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.992,
+      "pre_change_request_fraction": 0.004,
+      "post_change_request_fraction": 0.992,
+      "mean_requests": 2.87,
+      "median_first_post_change_decision": 8,
+      "any_request_count": 496,
+      "any_request_ci95": [
+        0.979644367406256,
+        0.9978160918916581
+      ],
+      "pre_change_request_count": 2,
+      "pre_change_request_ci95": [
+        0.00048478617610388795,
+        0.014374078562200318
+      ],
+      "post_change_request_count": 496,
+      "post_change_request_ci95": [
+        0.979644367406256,
+        0.9978160918916581
+      ],
+      "no_post_change_request_count": 4,
+      "first_post_change_decision_counts": {
+        "7": 6,
+        "8": 453,
+        "9": 18,
+        "10": 11,
+        "11": 2,
+        "12": 4,
+        "13": 2
+      }
+    },
+    {
+      "n": 800,
+      "regime": "eight_point_drop",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.992,
+      "pre_change_request_fraction": 0.004,
+      "post_change_request_fraction": 0.992,
+      "mean_requests": 2.866,
+      "median_first_post_change_decision": 8,
+      "any_request_count": 496,
+      "any_request_ci95": [
+        0.979644367406256,
+        0.9978160918916581
+      ],
+      "pre_change_request_count": 2,
+      "pre_change_request_ci95": [
+        0.00048478617610388795,
+        0.014374078562200318
+      ],
+      "post_change_request_count": 496,
+      "post_change_request_ci95": [
+        0.979644367406256,
+        0.9978160918916581
+      ],
+      "no_post_change_request_count": 4,
+      "first_post_change_decision_counts": {
+        "7": 4,
+        "8": 455,
+        "9": 18,
+        "10": 11,
+        "11": 2,
+        "12": 4,
+        "13": 2
+      }
+    },
+    {
+      "n": 1600,
+      "regime": "stable",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0,
+      "mean_requests": 0,
+      "median_first_post_change_decision": null,
+      "any_request_count": 0,
+      "any_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 0,
+      "post_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "no_post_change_request_count": 500,
+      "first_post_change_decision_counts": {
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0
+      }
+    },
+    {
+      "n": 1600,
+      "regime": "stable",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0,
+      "mean_requests": 0,
+      "median_first_post_change_decision": null,
+      "any_request_count": 0,
+      "any_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 0,
+      "post_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "no_post_change_request_count": 500,
+      "first_post_change_decision_counts": {
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0
+      }
+    },
+    {
+      "n": 1600,
+      "regime": "four_point_drop",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.274,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.274,
+      "mean_requests": 0.45,
+      "median_first_post_change_decision": 9,
+      "any_request_count": 137,
+      "any_request_ci95": [
+        0.2353416620119251,
+        0.31535445451118965
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 137,
+      "post_change_request_ci95": [
+        0.2353416620119251,
+        0.31535445451118965
+      ],
+      "no_post_change_request_count": 363,
+      "first_post_change_decision_counts": {
+        "7": 0,
+        "8": 62,
+        "9": 12,
+        "10": 25,
+        "11": 18,
+        "12": 12,
+        "13": 8
+      }
+    },
+    {
+      "n": 1600,
+      "regime": "four_point_drop",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.274,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.274,
+      "mean_requests": 0.45,
+      "median_first_post_change_decision": 9,
+      "any_request_count": 137,
+      "any_request_ci95": [
+        0.2353416620119251,
+        0.31535445451118965
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 137,
+      "post_change_request_ci95": [
+        0.2353416620119251,
+        0.31535445451118965
+      ],
+      "no_post_change_request_count": 363,
+      "first_post_change_decision_counts": {
+        "7": 0,
+        "8": 62,
+        "9": 12,
+        "10": 25,
+        "11": 18,
+        "12": 12,
+        "13": 8
+      }
+    },
+    {
+      "n": 1600,
+      "regime": "eight_point_drop",
+      "policy": "persistence",
+      "runs": 500,
+      "any_request_fraction": 0.996,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.996,
+      "mean_requests": 2.956,
+      "median_first_post_change_decision": 8,
+      "any_request_count": 498,
+      "any_request_ci95": [
+        0.9856259214377996,
+        0.9995152138238961
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 498,
+      "post_change_request_ci95": [
+        0.9856259214377996,
+        0.9995152138238961
+      ],
+      "no_post_change_request_count": 2,
+      "first_post_change_decision_counts": {
+        "7": 0,
+        "8": 492,
+        "9": 1,
+        "10": 3,
+        "11": 2,
+        "12": 0,
+        "13": 0
+      }
+    },
+    {
+      "n": 1600,
+      "regime": "eight_point_drop",
+      "policy": "fisher_bonferroni",
+      "runs": 500,
+      "any_request_fraction": 0.996,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.996,
+      "mean_requests": 2.956,
+      "median_first_post_change_decision": 8,
+      "any_request_count": 498,
+      "any_request_ci95": [
+        0.9856259214377996,
+        0.9995152138238961
+      ],
+      "pre_change_request_count": 0,
+      "pre_change_request_ci95": [
+        0,
+        0.007350610051907785
+      ],
+      "post_change_request_count": 498,
+      "post_change_request_ci95": [
+        0.9856259214377996,
+        0.9995152138238961
+      ],
+      "no_post_change_request_count": 2,
+      "first_post_change_decision_counts": {
+        "7": 0,
+        "8": 492,
+        "9": 1,
+        "10": 3,
+        "11": 2,
+        "12": 0,
+        "13": 0
+      }
+    }
+  ],
+  "design_candidates": [
+    {
+      "policy": "persistence",
+      "regime": "four_point_drop",
+      "first_tested_n_meeting_point_criteria": null
+    },
+    {
+      "policy": "persistence",
+      "regime": "eight_point_drop",
+      "first_tested_n_meeting_point_criteria": 400
+    },
+    {
+      "policy": "fisher_bonferroni",
+      "regime": "four_point_drop",
+      "first_tested_n_meeting_point_criteria": null
+    },
+    {
+      "policy": "fisher_bonferroni",
+      "regime": "eight_point_drop",
+      "first_tested_n_meeting_point_criteria": 800
+    }
+  ],
+  "source_sha256": {
+    "fraud_model_watch/power.py": "c1b6a1c1c65e89673f713c9fb4ccaad0ecbdc8c44f8cf1a78f7c469fa51491a9",
+    "fraud_model_watch/uncertainty.py": "59669da0611558219a8342b735a732ac0249b8cc0824671d28a1f3356d29d71e",
+    "fraud_model_watch/stress.py": "533d8ae354d6a5130dd5ed714a6b8b3aa167e03e694f3f97790bc8fc3657a9c2",
+    "fraud_model_watch/evaluation.py": "7581154dc6571b46ff059de20a44aa65772e42f1534f14f4bc7005559f54c5bc",
+    "docs/COMPLETION_PLAN.md": "a7845fdc765b7d699531e57cdd13cffe3afe15907ca48adb4ed00757a8b67cb0",
+    "requirements.txt": "ecde24911a182a7656a036d0b9db775784a5d14a5f0c1375a8ba10dd6783f2dc"
+  }
+}
