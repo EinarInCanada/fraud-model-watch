@@ -1,0 +1,3664 @@
+{
+  "scope": "exploratory; primary final outcomes already seen; no winning setting selected",
+  "settings": [
+    {
+      "delay": 0,
+      "capacity_fraction": 0.01,
+      "reference_month": 1,
+      "decisions": [
+        {
+          "month": 1,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 1,
+          "policy": "scheduled",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 1,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 1,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 2,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 2,
+          "policy": "scheduled",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 2,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": [
+            1
+          ]
+        },
+        {
+          "month": 2,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": [
+            1
+          ]
+        },
+        {
+          "month": 3,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": [
+            1,
+            2
+          ]
+        },
+        {
+          "month": 3,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": [
+            1,
+            2
+          ]
+        },
+        {
+          "month": 4,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "month": 4,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "month": 5,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 5,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 5,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "month": 5,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "month": 6,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 6,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 6,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "month": 6,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "month": 7,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 7,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 7,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "evidence_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "month": 7,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "evidence_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "monthly": [
+        {
+          "policy": "frozen",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 1081,
+          "captured": 251,
+          "false_positives": 830,
+          "precision_at_k": 0.23219241443108232,
+          "recall_at_k": 0.17310344827586208,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "frozen",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 968,
+          "captured": 261,
+          "false_positives": 707,
+          "precision_at_k": 0.26962809917355374,
+          "recall_at_k": 0.18277310924369747,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        },
+        {
+          "policy": "scheduled",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 1081,
+          "captured": 256,
+          "false_positives": 825,
+          "precision_at_k": 0.23681776133209992,
+          "recall_at_k": 0.17655172413793102,
+          "prediction_sha256": "4a1e7b9f01aec69e65ed9771d72e873f5b7daee668adba568ff5a2d1cf143d4d",
+          "average_precision": 0.1456479896165254,
+          "brier_score": 0.012288154797466826
+        },
+        {
+          "policy": "scheduled",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 968,
+          "captured": 265,
+          "false_positives": 703,
+          "precision_at_k": 0.2737603305785124,
+          "recall_at_k": 0.18557422969187676,
+          "prediction_sha256": "c003610bddd1cf0e03213ac544804426c86bae53df221b33373ce0e8b0f7570f",
+          "average_precision": 0.18202011450862993,
+          "brier_score": 0.01332780725878135
+        },
+        {
+          "policy": "evidence",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 1081,
+          "captured": 251,
+          "false_positives": 830,
+          "precision_at_k": 0.23219241443108232,
+          "recall_at_k": 0.17310344827586208,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "evidence",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 968,
+          "captured": 261,
+          "false_positives": 707,
+          "precision_at_k": 0.26962809917355374,
+          "recall_at_k": 0.18277310924369747,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 1081,
+          "captured": 251,
+          "false_positives": 830,
+          "precision_at_k": 0.23219241443108232,
+          "recall_at_k": 0.17310344827586208,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 968,
+          "captured": 261,
+          "false_positives": 707,
+          "precision_at_k": 0.26962809917355374,
+          "recall_at_k": 0.18277310924369747,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        }
+      ],
+      "pooled": [
+        {
+          "policy": "frozen",
+          "n": 205011,
+          "positives": 2878,
+          "k": 2049,
+          "captured": 512,
+          "false_positives": 1537,
+          "recall_at_k": 0.17790132036136205,
+          "precision_at_k": 0.24987798926305516,
+          "logical_refits": 0
+        },
+        {
+          "policy": "scheduled",
+          "n": 205011,
+          "positives": 2878,
+          "k": 2049,
+          "captured": 521,
+          "false_positives": 1528,
+          "recall_at_k": 0.18102849200833912,
+          "precision_at_k": 0.25427037579306977,
+          "logical_refits": 5
+        },
+        {
+          "policy": "evidence",
+          "n": 205011,
+          "positives": 2878,
+          "k": 2049,
+          "captured": 512,
+          "false_positives": 1537,
+          "recall_at_k": 0.17790132036136205,
+          "precision_at_k": 0.24987798926305516,
+          "logical_refits": 0
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "n": 205011,
+          "positives": 2878,
+          "k": 2049,
+          "captured": 512,
+          "false_positives": 1537,
+          "recall_at_k": 0.17790132036136205,
+          "precision_at_k": 0.24987798926305516,
+          "logical_refits": 0
+        }
+      ]
+    },
+    {
+      "delay": 1,
+      "capacity_fraction": 0.01,
+      "reference_month": 2,
+      "decisions": [
+        {
+          "month": 2,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 2,
+          "policy": "scheduled",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 2,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 2,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "scheduled",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": [
+            2
+          ]
+        },
+        {
+          "month": 4,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": [
+            2
+          ]
+        },
+        {
+          "month": 5,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 5,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 5,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": [
+            2,
+            3
+          ]
+        },
+        {
+          "month": 5,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": [
+            2,
+            3
+          ]
+        },
+        {
+          "month": 6,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 6,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 6,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "month": 6,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "month": 7,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 7,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 7,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "month": 7,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "monthly": [
+        {
+          "policy": "frozen",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 1081,
+          "captured": 251,
+          "false_positives": 830,
+          "precision_at_k": 0.23219241443108232,
+          "recall_at_k": 0.17310344827586208,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "frozen",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 968,
+          "captured": 261,
+          "false_positives": 707,
+          "precision_at_k": 0.26962809917355374,
+          "recall_at_k": 0.18277310924369747,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        },
+        {
+          "policy": "scheduled",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 1081,
+          "captured": 262,
+          "false_positives": 819,
+          "precision_at_k": 0.242368177613321,
+          "recall_at_k": 0.18068965517241378,
+          "prediction_sha256": "b7cc31f8b7bb6b8f3c28bde81979573fc96f0fe3a01568795fccef8fb4e758c1",
+          "average_precision": 0.14419629356907532,
+          "brier_score": 0.012383375733297012
+        },
+        {
+          "policy": "scheduled",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 968,
+          "captured": 268,
+          "false_positives": 700,
+          "precision_at_k": 0.2768595041322314,
+          "recall_at_k": 0.1876750700280112,
+          "prediction_sha256": "b114c1e1c9982b4a4cf81995bc7bf2fc9b9ac56c622339e2175fad27358b1f13",
+          "average_precision": 0.18129838038620882,
+          "brier_score": 0.013445717429364802
+        },
+        {
+          "policy": "evidence",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 1081,
+          "captured": 251,
+          "false_positives": 830,
+          "precision_at_k": 0.23219241443108232,
+          "recall_at_k": 0.17310344827586208,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "evidence",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 968,
+          "captured": 261,
+          "false_positives": 707,
+          "precision_at_k": 0.26962809917355374,
+          "recall_at_k": 0.18277310924369747,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 1081,
+          "captured": 251,
+          "false_positives": 830,
+          "precision_at_k": 0.23219241443108232,
+          "recall_at_k": 0.17310344827586208,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 968,
+          "captured": 261,
+          "false_positives": 707,
+          "precision_at_k": 0.26962809917355374,
+          "recall_at_k": 0.18277310924369747,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        }
+      ],
+      "pooled": [
+        {
+          "policy": "frozen",
+          "n": 205011,
+          "positives": 2878,
+          "k": 2049,
+          "captured": 512,
+          "false_positives": 1537,
+          "recall_at_k": 0.17790132036136205,
+          "precision_at_k": 0.24987798926305516,
+          "logical_refits": 0
+        },
+        {
+          "policy": "scheduled",
+          "n": 205011,
+          "positives": 2878,
+          "k": 2049,
+          "captured": 530,
+          "false_positives": 1519,
+          "recall_at_k": 0.1841556636553162,
+          "precision_at_k": 0.25866276232308444,
+          "logical_refits": 4
+        },
+        {
+          "policy": "evidence",
+          "n": 205011,
+          "positives": 2878,
+          "k": 2049,
+          "captured": 512,
+          "false_positives": 1537,
+          "recall_at_k": 0.17790132036136205,
+          "precision_at_k": 0.24987798926305516,
+          "logical_refits": 0
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "n": 205011,
+          "positives": 2878,
+          "k": 2049,
+          "captured": 512,
+          "false_positives": 1537,
+          "recall_at_k": 0.17790132036136205,
+          "precision_at_k": 0.24987798926305516,
+          "logical_refits": 0
+        }
+      ]
+    },
+    {
+      "delay": 2,
+      "capacity_fraction": 0.01,
+      "reference_month": 3,
+      "decisions": [
+        {
+          "month": 3,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "scheduled",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "scheduled",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 5,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 5,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 5,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 5,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 6,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 6,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 6,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": [
+            3
+          ]
+        },
+        {
+          "month": 6,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": [
+            3
+          ]
+        },
+        {
+          "month": 7,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 7,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 7,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": [
+            3,
+            4
+          ]
+        },
+        {
+          "month": 7,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": [
+            3,
+            4
+          ]
+        }
+      ],
+      "monthly": [
+        {
+          "policy": "frozen",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 1081,
+          "captured": 251,
+          "false_positives": 830,
+          "precision_at_k": 0.23219241443108232,
+          "recall_at_k": 0.17310344827586208,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "frozen",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 968,
+          "captured": 261,
+          "false_positives": 707,
+          "precision_at_k": 0.26962809917355374,
+          "recall_at_k": 0.18277310924369747,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        },
+        {
+          "policy": "scheduled",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 1081,
+          "captured": 256,
+          "false_positives": 825,
+          "precision_at_k": 0.23681776133209992,
+          "recall_at_k": 0.17655172413793102,
+          "prediction_sha256": "c015cec03474d40cc700cb9c4fb3b005d30337cd5c59aaafd6bd9ea57760ce3f",
+          "average_precision": 0.14302824424241067,
+          "brier_score": 0.012425009598113707
+        },
+        {
+          "policy": "scheduled",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 968,
+          "captured": 267,
+          "false_positives": 701,
+          "precision_at_k": 0.27582644628099173,
+          "recall_at_k": 0.1869747899159664,
+          "prediction_sha256": "d4b99faaacbc3b29ffa1764be4577fb64ab903de7df8ef13a16231427a84173a",
+          "average_precision": 0.17818555989912627,
+          "brier_score": 0.013675913113604653
+        },
+        {
+          "policy": "evidence",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 1081,
+          "captured": 251,
+          "false_positives": 830,
+          "precision_at_k": 0.23219241443108232,
+          "recall_at_k": 0.17310344827586208,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "evidence",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 968,
+          "captured": 261,
+          "false_positives": 707,
+          "precision_at_k": 0.26962809917355374,
+          "recall_at_k": 0.18277310924369747,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 1081,
+          "captured": 251,
+          "false_positives": 830,
+          "precision_at_k": 0.23219241443108232,
+          "recall_at_k": 0.17310344827586208,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 968,
+          "captured": 261,
+          "false_positives": 707,
+          "precision_at_k": 0.26962809917355374,
+          "recall_at_k": 0.18277310924369747,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        }
+      ],
+      "pooled": [
+        {
+          "policy": "frozen",
+          "n": 205011,
+          "positives": 2878,
+          "k": 2049,
+          "captured": 512,
+          "false_positives": 1537,
+          "recall_at_k": 0.17790132036136205,
+          "precision_at_k": 0.24987798926305516,
+          "logical_refits": 0
+        },
+        {
+          "policy": "scheduled",
+          "n": 205011,
+          "positives": 2878,
+          "k": 2049,
+          "captured": 523,
+          "false_positives": 1526,
+          "recall_at_k": 0.1817234190410007,
+          "precision_at_k": 0.2552464616886286,
+          "logical_refits": 3
+        },
+        {
+          "policy": "evidence",
+          "n": 205011,
+          "positives": 2878,
+          "k": 2049,
+          "captured": 512,
+          "false_positives": 1537,
+          "recall_at_k": 0.17790132036136205,
+          "precision_at_k": 0.24987798926305516,
+          "logical_refits": 0
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "n": 205011,
+          "positives": 2878,
+          "k": 2049,
+          "captured": 512,
+          "false_positives": 1537,
+          "recall_at_k": 0.17790132036136205,
+          "precision_at_k": 0.24987798926305516,
+          "logical_refits": 0
+        }
+      ]
+    },
+    {
+      "delay": 1,
+      "capacity_fraction": 0.005,
+      "reference_month": 2,
+      "decisions": [
+        {
+          "month": 2,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 2,
+          "policy": "scheduled",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 2,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 2,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "scheduled",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": [
+            2
+          ]
+        },
+        {
+          "month": 4,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": [
+            2
+          ]
+        },
+        {
+          "month": 5,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 5,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 5,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": [
+            2,
+            3
+          ]
+        },
+        {
+          "month": 5,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": [
+            2,
+            3
+          ]
+        },
+        {
+          "month": 6,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 6,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 6,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "month": 6,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "month": 7,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 7,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 7,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "month": 7,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "monthly": [
+        {
+          "policy": "frozen",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 540,
+          "captured": 162,
+          "false_positives": 378,
+          "precision_at_k": 0.3,
+          "recall_at_k": 0.11172413793103449,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "frozen",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 484,
+          "captured": 172,
+          "false_positives": 312,
+          "precision_at_k": 0.35537190082644626,
+          "recall_at_k": 0.12044817927170869,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        },
+        {
+          "policy": "scheduled",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 540,
+          "captured": 172,
+          "false_positives": 368,
+          "precision_at_k": 0.31851851851851853,
+          "recall_at_k": 0.11862068965517242,
+          "prediction_sha256": "b7cc31f8b7bb6b8f3c28bde81979573fc96f0fe3a01568795fccef8fb4e758c1",
+          "average_precision": 0.14419629356907532,
+          "brier_score": 0.012383375733297012
+        },
+        {
+          "policy": "scheduled",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 484,
+          "captured": 164,
+          "false_positives": 320,
+          "precision_at_k": 0.33884297520661155,
+          "recall_at_k": 0.11484593837535013,
+          "prediction_sha256": "b114c1e1c9982b4a4cf81995bc7bf2fc9b9ac56c622339e2175fad27358b1f13",
+          "average_precision": 0.18129838038620882,
+          "brier_score": 0.013445717429364802
+        },
+        {
+          "policy": "evidence",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 540,
+          "captured": 162,
+          "false_positives": 378,
+          "precision_at_k": 0.3,
+          "recall_at_k": 0.11172413793103449,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "evidence",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 484,
+          "captured": 172,
+          "false_positives": 312,
+          "precision_at_k": 0.35537190082644626,
+          "recall_at_k": 0.12044817927170869,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 540,
+          "captured": 162,
+          "false_positives": 378,
+          "precision_at_k": 0.3,
+          "recall_at_k": 0.11172413793103449,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 484,
+          "captured": 172,
+          "false_positives": 312,
+          "precision_at_k": 0.35537190082644626,
+          "recall_at_k": 0.12044817927170869,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        }
+      ],
+      "pooled": [
+        {
+          "policy": "frozen",
+          "n": 205011,
+          "positives": 2878,
+          "k": 1024,
+          "captured": 334,
+          "false_positives": 690,
+          "recall_at_k": 0.11605281445448228,
+          "precision_at_k": 0.326171875,
+          "logical_refits": 0
+        },
+        {
+          "policy": "scheduled",
+          "n": 205011,
+          "positives": 2878,
+          "k": 1024,
+          "captured": 336,
+          "false_positives": 688,
+          "recall_at_k": 0.11674774148714386,
+          "precision_at_k": 0.328125,
+          "logical_refits": 4
+        },
+        {
+          "policy": "evidence",
+          "n": 205011,
+          "positives": 2878,
+          "k": 1024,
+          "captured": 334,
+          "false_positives": 690,
+          "recall_at_k": 0.11605281445448228,
+          "precision_at_k": 0.326171875,
+          "logical_refits": 0
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "n": 205011,
+          "positives": 2878,
+          "k": 1024,
+          "captured": 334,
+          "false_positives": 690,
+          "recall_at_k": 0.11605281445448228,
+          "precision_at_k": 0.326171875,
+          "logical_refits": 0
+        }
+      ]
+    },
+    {
+      "delay": 1,
+      "capacity_fraction": 0.02,
+      "reference_month": 2,
+      "decisions": [
+        {
+          "month": 2,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 2,
+          "policy": "scheduled",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 2,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 2,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "scheduled",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": [
+            2
+          ]
+        },
+        {
+          "month": 4,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": [
+            2
+          ]
+        },
+        {
+          "month": 5,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 5,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 5,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": [
+            2,
+            3
+          ]
+        },
+        {
+          "month": 5,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": [
+            2,
+            3
+          ]
+        },
+        {
+          "month": 6,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 6,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 6,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "month": 6,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "month": 7,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 7,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 7,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "month": 7,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "monthly": [
+        {
+          "policy": "frozen",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 2163,
+          "captured": 381,
+          "false_positives": 1782,
+          "precision_at_k": 0.17614424410540916,
+          "recall_at_k": 0.26275862068965516,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "frozen",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 1936,
+          "captured": 406,
+          "false_positives": 1530,
+          "precision_at_k": 0.2097107438016529,
+          "recall_at_k": 0.28431372549019607,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        },
+        {
+          "policy": "scheduled",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 2163,
+          "captured": 389,
+          "false_positives": 1774,
+          "precision_at_k": 0.1798428109107721,
+          "recall_at_k": 0.26827586206896553,
+          "prediction_sha256": "b7cc31f8b7bb6b8f3c28bde81979573fc96f0fe3a01568795fccef8fb4e758c1",
+          "average_precision": 0.14419629356907532,
+          "brier_score": 0.012383375733297012
+        },
+        {
+          "policy": "scheduled",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 1936,
+          "captured": 422,
+          "false_positives": 1514,
+          "precision_at_k": 0.21797520661157024,
+          "recall_at_k": 0.29551820728291317,
+          "prediction_sha256": "b114c1e1c9982b4a4cf81995bc7bf2fc9b9ac56c622339e2175fad27358b1f13",
+          "average_precision": 0.18129838038620882,
+          "brier_score": 0.013445717429364802
+        },
+        {
+          "policy": "evidence",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 2163,
+          "captured": 381,
+          "false_positives": 1782,
+          "precision_at_k": 0.17614424410540916,
+          "recall_at_k": 0.26275862068965516,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "evidence",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 1936,
+          "captured": 406,
+          "false_positives": 1530,
+          "precision_at_k": 0.2097107438016529,
+          "recall_at_k": 0.28431372549019607,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 2163,
+          "captured": 381,
+          "false_positives": 1782,
+          "precision_at_k": 0.17614424410540916,
+          "recall_at_k": 0.26275862068965516,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 1936,
+          "captured": 406,
+          "false_positives": 1530,
+          "precision_at_k": 0.2097107438016529,
+          "recall_at_k": 0.28431372549019607,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        }
+      ],
+      "pooled": [
+        {
+          "policy": "frozen",
+          "n": 205011,
+          "positives": 2878,
+          "k": 4099,
+          "captured": 787,
+          "false_positives": 3312,
+          "recall_at_k": 0.273453787352328,
+          "precision_at_k": 0.1919980483044645,
+          "logical_refits": 0
+        },
+        {
+          "policy": "scheduled",
+          "n": 205011,
+          "positives": 2878,
+          "k": 4099,
+          "captured": 811,
+          "false_positives": 3288,
+          "recall_at_k": 0.28179291174426685,
+          "precision_at_k": 0.19785313491095388,
+          "logical_refits": 4
+        },
+        {
+          "policy": "evidence",
+          "n": 205011,
+          "positives": 2878,
+          "k": 4099,
+          "captured": 787,
+          "false_positives": 3312,
+          "recall_at_k": 0.273453787352328,
+          "precision_at_k": 0.1919980483044645,
+          "logical_refits": 0
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "n": 205011,
+          "positives": 2878,
+          "k": 4099,
+          "captured": 787,
+          "false_positives": 3312,
+          "recall_at_k": 0.273453787352328,
+          "precision_at_k": 0.1919980483044645,
+          "logical_refits": 0
+        }
+      ]
+    },
+    {
+      "delay": 1,
+      "capacity_fraction": 0.05,
+      "reference_month": 2,
+      "decisions": [
+        {
+          "month": 2,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 2,
+          "policy": "scheduled",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 2,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 2,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "scheduled",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 3,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "reference_not_available",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 4,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": [
+            2
+          ]
+        },
+        {
+          "month": 4,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2
+          ],
+          "evidence_months": [
+            2
+          ]
+        },
+        {
+          "month": 5,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 5,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 5,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": [
+            2,
+            3
+          ]
+        },
+        {
+          "month": 5,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "insufficient_post_reference_evidence",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "evidence_months": [
+            2,
+            3
+          ]
+        },
+        {
+          "month": 6,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 6,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 6,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "month": 6,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_months": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "month": 7,
+          "policy": "frozen",
+          "refit": false,
+          "reason": "frozen_or_warmup",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 7,
+          "policy": "scheduled",
+          "refit": true,
+          "reason": "calendar",
+          "training_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": []
+        },
+        {
+          "month": 7,
+          "policy": "evidence",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "month": 7,
+          "policy": "fisher_bonferroni",
+          "refit": false,
+          "reason": "hold",
+          "training_months": [
+            0
+          ],
+          "available_label_months": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_months": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "monthly": [
+        {
+          "policy": "frozen",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 5408,
+          "captured": 640,
+          "false_positives": 4768,
+          "precision_at_k": 0.11834319526627218,
+          "recall_at_k": 0.4413793103448276,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "frozen",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 4842,
+          "captured": 677,
+          "false_positives": 4165,
+          "precision_at_k": 0.13981825691862868,
+          "recall_at_k": 0.4740896358543417,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        },
+        {
+          "policy": "scheduled",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 5408,
+          "captured": 656,
+          "false_positives": 4752,
+          "precision_at_k": 0.12130177514792899,
+          "recall_at_k": 0.45241379310344826,
+          "prediction_sha256": "b7cc31f8b7bb6b8f3c28bde81979573fc96f0fe3a01568795fccef8fb4e758c1",
+          "average_precision": 0.14419629356907532,
+          "brier_score": 0.012383375733297012
+        },
+        {
+          "policy": "scheduled",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 4842,
+          "captured": 685,
+          "false_positives": 4157,
+          "precision_at_k": 0.14147046674927716,
+          "recall_at_k": 0.4796918767507003,
+          "prediction_sha256": "b114c1e1c9982b4a4cf81995bc7bf2fc9b9ac56c622339e2175fad27358b1f13",
+          "average_precision": 0.18129838038620882,
+          "brier_score": 0.013445717429364802
+        },
+        {
+          "policy": "evidence",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 5408,
+          "captured": 640,
+          "false_positives": 4768,
+          "precision_at_k": 0.11834319526627218,
+          "recall_at_k": 0.4413793103448276,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "evidence",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 4842,
+          "captured": 677,
+          "false_positives": 4165,
+          "precision_at_k": 0.13981825691862868,
+          "recall_at_k": 0.4740896358543417,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "month": 6,
+          "n": 108168,
+          "positives": 1450,
+          "k": 5408,
+          "captured": 640,
+          "false_positives": 4768,
+          "precision_at_k": 0.11834319526627218,
+          "recall_at_k": 0.4413793103448276,
+          "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+          "average_precision": 0.13620970418590123,
+          "brier_score": 0.012297362479991218
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "month": 7,
+          "n": 96843,
+          "positives": 1428,
+          "k": 4842,
+          "captured": 677,
+          "false_positives": 4165,
+          "precision_at_k": 0.13981825691862868,
+          "recall_at_k": 0.4740896358543417,
+          "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+          "average_precision": 0.17583813283102243,
+          "brier_score": 0.0132820689504386
+        }
+      ],
+      "pooled": [
+        {
+          "policy": "frozen",
+          "n": 205011,
+          "positives": 2878,
+          "k": 10250,
+          "captured": 1317,
+          "false_positives": 8933,
+          "recall_at_k": 0.4576094510076442,
+          "precision_at_k": 0.12848780487804878,
+          "logical_refits": 0
+        },
+        {
+          "policy": "scheduled",
+          "n": 205011,
+          "positives": 2878,
+          "k": 10250,
+          "captured": 1341,
+          "false_positives": 8909,
+          "recall_at_k": 0.46594857539958306,
+          "precision_at_k": 0.13082926829268293,
+          "logical_refits": 4
+        },
+        {
+          "policy": "evidence",
+          "n": 205011,
+          "positives": 2878,
+          "k": 10250,
+          "captured": 1317,
+          "false_positives": 8933,
+          "recall_at_k": 0.4576094510076442,
+          "precision_at_k": 0.12848780487804878,
+          "logical_refits": 0
+        },
+        {
+          "policy": "fisher_bonferroni",
+          "n": 205011,
+          "positives": 2878,
+          "k": 10250,
+          "captured": 1317,
+          "false_positives": 8933,
+          "recall_at_k": 0.4576094510076442,
+          "precision_at_k": 0.12848780487804878,
+          "logical_refits": 0
+        }
+      ]
+    }
+  ],
+  "complexity": [
+    {
+      "model": "logistic",
+      "month": 6,
+      "n": 108168,
+      "positives": 1450,
+      "k": 1081,
+      "captured": 251,
+      "false_positives": 830,
+      "precision_at_k": 0.23219241443108232,
+      "recall_at_k": 0.17310344827586208,
+      "prediction_sha256": "94d1b43e5fa4b60fa045dd07472fd906056377cfe2c012f4677064d085103d7a",
+      "average_precision": 0.13620970418590123,
+      "brier_score": 0.012297362479991218
+    },
+    {
+      "model": "logistic",
+      "month": 7,
+      "n": 96843,
+      "positives": 1428,
+      "k": 968,
+      "captured": 261,
+      "false_positives": 707,
+      "precision_at_k": 0.26962809917355374,
+      "recall_at_k": 0.18277310924369747,
+      "prediction_sha256": "4de43eef404e33eee90bde74449aadd0ae45b8ee805618018e7d6c2289ad6ee4",
+      "average_precision": 0.17583813283102243,
+      "brier_score": 0.0132820689504386
+    },
+    {
+      "model": "forest",
+      "month": 6,
+      "n": 108168,
+      "positives": 1450,
+      "k": 1081,
+      "captured": 255,
+      "false_positives": 826,
+      "precision_at_k": 0.23589269195189638,
+      "recall_at_k": 0.17586206896551723,
+      "prediction_sha256": "cc6f7ce1707c2f44eb6a3d3d576b1ad643d490f98d3d7b011eaf1c037a0a5507",
+      "average_precision": 0.1416004610792746,
+      "brier_score": 0.012536610649683434
+    },
+    {
+      "model": "forest",
+      "month": 7,
+      "n": 96843,
+      "positives": 1428,
+      "k": 968,
+      "captured": 278,
+      "false_positives": 690,
+      "precision_at_k": 0.2871900826446281,
+      "recall_at_k": 0.19467787114845939,
+      "prediction_sha256": "a987ab5ad666b3a4b8d448d7fcf20145d0e0f8250d3f9321aed64e2c9ded19fc",
+      "average_precision": 0.17390416146370016,
+      "brier_score": 0.013698415001473696
+    }
+  ],
+  "physical_fits": [
+    {
+      "kind": "logistic",
+      "training_months": [
+        0
+      ],
+      "rows": 132440,
+      "seconds": 0.35286345798522234,
+      "warnings": []
+    },
+    {
+      "kind": "logistic",
+      "training_months": [
+        0,
+        1,
+        2
+      ],
+      "rows": 397039,
+      "seconds": 1.0909458749229088,
+      "warnings": []
+    },
+    {
+      "kind": "logistic",
+      "training_months": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rows": 547975,
+      "seconds": 1.4964332079980522,
+      "warnings": []
+    },
+    {
+      "kind": "logistic",
+      "training_months": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rows": 675666,
+      "seconds": 1.7810910840053111,
+      "warnings": []
+    },
+    {
+      "kind": "logistic",
+      "training_months": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "rows": 794989,
+      "seconds": 2.088291750056669,
+      "warnings": []
+    },
+    {
+      "kind": "logistic",
+      "training_months": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "rows": 903157,
+      "seconds": 2.4101820409996435,
+      "warnings": []
+    },
+    {
+      "kind": "forest",
+      "training_months": [
+        0
+      ],
+      "rows": 132440,
+      "seconds": 8.63131920795422,
+      "warnings": []
+    }
+  ],
+  "cache_note": "identical training-month sets reuse a deterministic fitted model; logical refits count policy actions",
+  "dataset_sha256": "7bf10a37ce07e72e14c1b09e5efee3d27261baff4facc7da767b0474dcf9b809",
+  "python": "3.12.1",
+  "packages": {
+    "numpy": "2.3.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.16.2"
+  },
+  "source_sha256": {
+    "fraud_model_watch/secondary.py": "41f5743dad14519e4b77ded89946ea2342e49002e67f5b264c336fea904ced98",
+    "fraud_model_watch/baseline.py": "50dba49fce8bc61c28e89d718fc34031f76caca441d69722f035b78bc23f7125",
+    "fraud_model_watch/evaluation.py": "7581154dc6571b46ff059de20a44aa65772e42f1534f14f4bc7005559f54c5bc",
+    "fraud_model_watch/uncertainty.py": "59669da0611558219a8342b735a732ac0249b8cc0824671d28a1f3356d29d71e",
+    "docs/COMPLETION_PLAN.md": "a7845fdc765b7d699531e57cdd13cffe3afe15907ca48adb4ed00757a8b67cb0",
+    "requirements.txt": "ecde24911a182a7656a036d0b9db775784a5d14a5f0c1375a8ba10dd6783f2dc"
+  }
+}
