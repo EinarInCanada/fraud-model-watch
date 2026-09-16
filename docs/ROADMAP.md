@@ -38,6 +38,8 @@ See [final results](FINAL_RESULTS.md). Scheduled retraining captured 18 more pos
 
 ## 5. Failure analysis and delivery
 
+S1 aggregate gate diagnostics are complete: [results](STRESS_RESULTS.md). They demonstrate small-sample false alarms, delayed responses and missing-feedback limitations, not improved model performance. Transaction-level fault studies, uncertainty-aware policy validation and subgroup analyses remain future work; no new policy has been selected from these outcomes.
+
 - Evaluate controlled faults separately from real temporal changes.
 - Publish reproducible results, limitations, and a concise demonstration.
 

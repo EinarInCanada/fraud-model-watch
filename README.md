@@ -10,6 +10,8 @@ The **primary non-commercial study on synthetic BAF account applications is comp
 
 The [feasibility review](docs/FEASIBILITY.md), [protocol v1.1](docs/PROTOCOL.md), [development baseline](docs/BASELINE_RESULTS.md), and [pre-scoring manifest anchor](docs/RUN_RECORD.md) preserve the research timeline. This is not a novel banking product or a production fraud adjudicator.
 
+The subsequent [S1 stress study](docs/STRESS_RESULTS.md) exposes a limitation: with only 30 positive labels per month, the two-month gate requested refitting in 45% of 200 simulated stable runs. These are aggregate-count diagnostics, not real transaction outcomes. Persistence alone does not provide statistical uncertainty control.
+
 ## Research questions
 
 - Does performance deteriorate on later transactions, compared with a frozen baseline?
@@ -60,6 +62,14 @@ The primary three-policy replay is implemented as separate prediction and scorin
 Prediction requires a clean committed checkout. It saves each decision before fitting/predicting, stores predictions without targets, and records source/dependency and artifact hashes. Scoring verifies those hashes and source-row alignment before reading final labels. These are reproducibility checks, not tamper-proof signatures. Only the primary one-month additional label delay is implemented. Sensitivity runs need their own temporally valid reference design; the two-month delay cannot reuse a month-2 reference trained on month 0.
 
 Original code is [MIT licensed](LICENSE); BAF data is not. See the license discrepancy and restrictions in DATA.md.
+
+Run the independent gate diagnostics without downloading BAF:
+
+```sh
+python3 -m fraud_model_watch.stress --output artifacts/stress-s1.json
+```
+
+See [the diagnostic protocol](docs/STRESS_PROTOCOL.md) for the fixed scenarios, seeds and limitations.
 
 ## Data and privacy
 
