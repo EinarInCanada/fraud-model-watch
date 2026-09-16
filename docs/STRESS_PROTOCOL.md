@@ -18,7 +18,7 @@ Scenarios (monthly captured positives per 1000):
 - Gradual: months 3–11 = 200, 180, 160, 140, 120, 100, 100, 100, 100.
 - Exact boundary: 150 from month 5 onward.
 - Recovery: 120 in months 5–6, then 200. Delayed feedback may request a refit after recovery already happened.
-- Sparse positives: reference 6/30, subsequent 5/25. Shows insufficient denominator even with large constructed decline.
+- Sparse positives: reference 6/30, subsequent 2/25. Shows insufficient denominator even with large constructed decline. Pre-execution correction: the earlier 5/25 specification equaled the 20% reference and did not encode a decline; corrected before the Monte Carlo run, not in response to its results.
 - Missing feedback: abrupt persistent scenario with months 6, 8 and 10 omitted. Shows how requiring consecutive calendar months can prevent action.
 
 Report first request, request count, reason trace and observed-month provenance. These are gate behavior checks, not detection accuracy on fraud data.
