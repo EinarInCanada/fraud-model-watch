@@ -17,7 +17,19 @@ Scope: the synthetic-data empirical research project approved after the feasibil
 
 ## Verification record
 
-Final reproduction and publication checks are recorded below after execution. No incomplete or pending check should be interpreted as passing.
+Verified on 2026-09-16 with Python 3.12.1 and pinned requirements, from clean implementation/documentation commit `9bc4199be40e9a1c2acded942d82fb98835168d2`:
+
+- Full local suite: **54 tests pass**. [CI run 35156084495](https://github.com/EinarInCanada/fraud-model-watch/actions/runs/35156084495) passes on Python 3.11, 3.12 and 3.13. CI uses fixtures, not a BAF download.
+- Fresh baseline under `artifacts/verification-baseline`: all four prediction hashes and all development metrics equal the original run.
+- Fresh primary predict/score under `artifacts/verification-replay`: **all 18 decision JSON files and all 18 prediction CSV files have identical hashes** to the original. Monthly metrics and pooled counts match exactly; fit timings legitimately differ.
+- Fresh replay manifest SHA-256: `227b8037d9ff80062ab40fe8c3a33c968f4d92fa87187030d3e0d282729864af`. It differs from the historical primary anchor because checkout identity and timings differ; the original anchor remains preserved, not replaced.
+- Fresh S1, S2, S3, fault, secondary and diagnostic runs under `artifacts/verification-*` reproduce all measured aggregates. Secondary fit seconds and diagnostics' referenced replay-manifest identity are the only deliberately excluded comparisons. Secondary prediction fingerprints also match.
+- Demo executed successfully: stable `[]`, abrupt `[8,10,12]`, recovery `[8]`, sparse `[]`. Full JSON trace format exercised by the fixture test.
+- Every published aggregate source hash matches its source file. All local Markdown links resolve. `git diff --check` passes.
+- Tracked-path inspection finds no `data/`, `artifacts/`, `models/` or `.venv/` content. A targeted credential-pattern scan finds no common AWS, Google, GitHub token or private-key pattern; this is a hygiene check, not a comprehensive security audit.
+- GitHub repository visibility verified as **public**. Implementation milestones were individually committed and pushed after verification; the implementation checkout was clean for the independent replay.
+
+The commands are documented in [REPRODUCE.md](REPRODUCE.md); use new output names on every run. Verification artifacts remain local and ignored. This audit records checks actually performed, not a promise of future validation.
 
 ## Explicitly not claimed
 
