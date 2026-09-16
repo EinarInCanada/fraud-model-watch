@@ -12,6 +12,8 @@ The [feasibility review](docs/FEASIBILITY.md), [protocol v1.1](docs/PROTOCOL.md)
 
 The subsequent [S1 stress study](docs/STRESS_RESULTS.md) exposes a limitation: with only 30 positive labels per month, the two-month gate requested refitting in 45% of 200 simulated stable runs. These are aggregate-count diagnostics, not real transaction outcomes. Persistence alone does not provide statistical uncertainty control.
 
+The [S2 uncertainty study](docs/UNCERTAINTY_RESULTS.md), on 500 fresh seeds per setting, reduces small-sample stable-run requests from 41% to 0.2% with fixed-horizon Fisher/Bonferroni filtering, **but responds to only 1% of persistent-decline runs at that sample size**. This is a false-alarm/power tradeoff, not a demonstrated superior policy. Both positive and negative results are published.
+
 ## Research questions
 
 - Does performance deteriorate on later transactions, compared with a frozen baseline?
@@ -70,6 +72,12 @@ python3 -m fraud_model_watch.stress --output artifacts/stress-s1.json
 ```
 
 See [the diagnostic protocol](docs/STRESS_PROTOCOL.md) for the fixed scenarios, seeds and limitations.
+
+Run the separate uncertainty diagnostic after installing requirements:
+
+```sh
+.venv/bin/python -m fraud_model_watch.uncertainty --output artifacts/uncertainty-s2.json
+```
 
 ## Data and privacy
 

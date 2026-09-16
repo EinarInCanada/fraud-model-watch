@@ -1,0 +1,307 @@
+{
+  "protocol": "S2",
+  "python": "3.12.1",
+  "seeds": [
+    2000,
+    2499
+  ],
+  "alpha": 0.05,
+  "unique_comparisons": 9,
+  "rows": [
+    {
+      "n": 30,
+      "regime": "stable",
+      "policy": "persistence",
+      "any_request_count": 205,
+      "any_request_ci95": [
+        0.3665330502538295,
+        0.4545374427333545
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.41,
+      "pre_change_request_fraction": 0.154,
+      "post_change_request_fraction": 0.384,
+      "mean_requests": 0.826,
+      "median_first_post_change_decision": 9
+    },
+    {
+      "n": 30,
+      "regime": "stable",
+      "policy": "fisher_uncorrected",
+      "any_request_count": 10,
+      "any_request_ci95": [
+        0.00963142958643335,
+        0.03647240829220982
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.02,
+      "pre_change_request_fraction": 0.008,
+      "post_change_request_fraction": 0.016,
+      "mean_requests": 0.024,
+      "median_first_post_change_decision": 10.5
+    },
+    {
+      "n": 30,
+      "regime": "stable",
+      "policy": "fisher_bonferroni",
+      "any_request_count": 1,
+      "any_request_ci95": [
+        0.000050634334007487,
+        0.011092476899002649
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.002,
+      "pre_change_request_fraction": 0.002,
+      "post_change_request_fraction": 0,
+      "mean_requests": 0.002,
+      "median_first_post_change_decision": null
+    },
+    {
+      "n": 30,
+      "regime": "persistent",
+      "policy": "persistence",
+      "any_request_count": 371,
+      "any_request_ci95": [
+        0.701288087489425,
+        0.7798231457044349
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.742,
+      "pre_change_request_fraction": 0.156,
+      "post_change_request_fraction": 0.74,
+      "mean_requests": 1.856,
+      "median_first_post_change_decision": 8
+    },
+    {
+      "n": 30,
+      "regime": "persistent",
+      "policy": "fisher_uncorrected",
+      "any_request_count": 57,
+      "any_request_ci95": [
+        0.0874949028799701,
+        0.14516846659904137
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.114,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.114,
+      "mean_requests": 0.132,
+      "median_first_post_change_decision": 10
+    },
+    {
+      "n": 30,
+      "regime": "persistent",
+      "policy": "fisher_bonferroni",
+      "any_request_count": 5,
+      "any_request_ci95": [
+        0.0032547214070305034,
+        0.023181388069659612
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.01,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.01,
+      "mean_requests": 0.01,
+      "median_first_post_change_decision": 11
+    },
+    {
+      "n": 30,
+      "regime": "transient",
+      "policy": "persistence",
+      "any_request_count": 220,
+      "any_request_ci95": [
+        0.39595741120420685,
+        0.48475606103093494
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.44,
+      "pre_change_request_fraction": 0.162,
+      "post_change_request_fraction": 0.412,
+      "mean_requests": 0.89,
+      "median_first_post_change_decision": 8
+    },
+    {
+      "n": 30,
+      "regime": "transient",
+      "policy": "fisher_uncorrected",
+      "any_request_count": 9,
+      "any_request_ci95": [
+        0.008262954434820119,
+        0.03389369610815242
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.018,
+      "pre_change_request_fraction": 0.004,
+      "post_change_request_fraction": 0.016,
+      "mean_requests": 0.026,
+      "median_first_post_change_decision": 7
+    },
+    {
+      "n": 30,
+      "regime": "transient",
+      "policy": "fisher_bonferroni",
+      "any_request_count": 1,
+      "any_request_ci95": [
+        0.000050634334007487,
+        0.011092476899002649
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.002,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.002,
+      "mean_requests": 0.002,
+      "median_first_post_change_decision": 7
+    },
+    {
+      "n": 1000,
+      "regime": "stable",
+      "policy": "persistence",
+      "any_request_count": 1,
+      "any_request_ci95": [
+        0.000050634334007487,
+        0.011092476899002649
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.002,
+      "pre_change_request_fraction": 0.002,
+      "post_change_request_fraction": 0,
+      "mean_requests": 0.002,
+      "median_first_post_change_decision": null
+    },
+    {
+      "n": 1000,
+      "regime": "stable",
+      "policy": "fisher_uncorrected",
+      "any_request_count": 1,
+      "any_request_ci95": [
+        0.000050634334007487,
+        0.011092476899002649
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.002,
+      "pre_change_request_fraction": 0.002,
+      "post_change_request_fraction": 0,
+      "mean_requests": 0.002,
+      "median_first_post_change_decision": null
+    },
+    {
+      "n": 1000,
+      "regime": "stable",
+      "policy": "fisher_bonferroni",
+      "any_request_count": 1,
+      "any_request_ci95": [
+        0.000050634334007487,
+        0.011092476899002649
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.002,
+      "pre_change_request_fraction": 0.002,
+      "post_change_request_fraction": 0,
+      "mean_requests": 0.002,
+      "median_first_post_change_decision": null
+    },
+    {
+      "n": 1000,
+      "regime": "persistent",
+      "policy": "persistence",
+      "any_request_count": 497,
+      "any_request_ci95": [
+        0.9825663262739395,
+        0.998760942456465
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.994,
+      "pre_change_request_fraction": 0.004,
+      "post_change_request_fraction": 0.994,
+      "mean_requests": 2.904,
+      "median_first_post_change_decision": 8
+    },
+    {
+      "n": 1000,
+      "regime": "persistent",
+      "policy": "fisher_uncorrected",
+      "any_request_count": 497,
+      "any_request_ci95": [
+        0.9825663262739395,
+        0.998760942456465
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.994,
+      "pre_change_request_fraction": 0.004,
+      "post_change_request_fraction": 0.994,
+      "mean_requests": 2.904,
+      "median_first_post_change_decision": 8
+    },
+    {
+      "n": 1000,
+      "regime": "persistent",
+      "policy": "fisher_bonferroni",
+      "any_request_count": 497,
+      "any_request_ci95": [
+        0.9825663262739395,
+        0.998760942456465
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.994,
+      "pre_change_request_fraction": 0.004,
+      "post_change_request_fraction": 0.994,
+      "mean_requests": 2.904,
+      "median_first_post_change_decision": 8
+    },
+    {
+      "n": 1000,
+      "regime": "transient",
+      "policy": "persistence",
+      "any_request_count": 5,
+      "any_request_ci95": [
+        0.0032547214070305034,
+        0.023181388069659612
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.01,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.01,
+      "mean_requests": 0.01,
+      "median_first_post_change_decision": 8
+    },
+    {
+      "n": 1000,
+      "regime": "transient",
+      "policy": "fisher_uncorrected",
+      "any_request_count": 5,
+      "any_request_ci95": [
+        0.0032547214070305034,
+        0.023181388069659612
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.01,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.01,
+      "mean_requests": 0.01,
+      "median_first_post_change_decision": 8
+    },
+    {
+      "n": 1000,
+      "regime": "transient",
+      "policy": "fisher_bonferroni",
+      "any_request_count": 5,
+      "any_request_ci95": [
+        0.0032547214070305034,
+        0.023181388069659612
+      ],
+      "runs": 500,
+      "any_request_fraction": 0.01,
+      "pre_change_request_fraction": 0,
+      "post_change_request_fraction": 0.01,
+      "mean_requests": 0.01,
+      "median_first_post_change_decision": 8
+    }
+  ],
+  "source_sha256": {
+    "fraud_model_watch/uncertainty.py": "59669da0611558219a8342b735a732ac0249b8cc0824671d28a1f3356d29d71e",
+    "fraud_model_watch/stress.py": "533d8ae354d6a5130dd5ed714a6b8b3aa167e03e694f3f97790bc8fc3657a9c2",
+    "fraud_model_watch/evaluation.py": "7581154dc6571b46ff059de20a44aa65772e42f1534f14f4bc7005559f54c5bc",
+    "docs/UNCERTAINTY_PROTOCOL.md": "a399a6094440d9daa92c498343a196a7660c4df00ea90fd104754d2e123715bb",
+    "requirements.txt": "ecde24911a182a7656a036d0b9db775784a5d14a5f0c1375a8ba10dd6783f2dc"
+  }
+}

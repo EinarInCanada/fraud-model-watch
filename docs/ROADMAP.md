@@ -38,6 +38,8 @@ See [final results](FINAL_RESULTS.md). Scheduled retraining captured 18 more pos
 
 ## 5. Failure analysis and delivery
 
+S2 uncertainty diagnostic is complete: [results](UNCERTAINTY_RESULTS.md). Fixed-horizon statistical filtering reduces sparse-data false alarms but misses most simulated persistent changes at n=30. No superiority or deployment claim. Power/sample-size analysis and end-to-end policy benefit remain unverified.
+
 S1 aggregate gate diagnostics are complete: [results](STRESS_RESULTS.md). They demonstrate small-sample false alarms, delayed responses and missing-feedback limitations, not improved model performance. Transaction-level fault studies, uncertainty-aware policy validation and subgroup analyses remain future work; no new policy has been selected from these outcomes.
 
 - Evaluate controlled faults separately from real temporal changes.
