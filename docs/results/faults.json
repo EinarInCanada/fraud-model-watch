@@ -1,0 +1,75 @@
+{
+  "provenance": "generated 200-row fixture; no BAF applications or real incidents",
+  "rejected_cases": [
+    {
+      "case": "missing_column",
+      "rejected": true,
+      "reason": "unexpected BAF schema"
+    },
+    {
+      "case": "duplicate_column",
+      "rejected": true,
+      "reason": "unexpected BAF schema"
+    },
+    {
+      "case": "invalid_label",
+      "rejected": true,
+      "reason": "invalid fraud labels"
+    },
+    {
+      "case": "nonfinite_numeric",
+      "rejected": true,
+      "reason": "nonfinite value in income"
+    },
+    {
+      "case": "missing_numeric",
+      "rejected": true,
+      "reason": "nonfinite value in income"
+    },
+    {
+      "case": "missing_category",
+      "rejected": true,
+      "reason": "missing categorical value"
+    },
+    {
+      "case": "invalid_month",
+      "rejected": true,
+      "reason": "invalid month"
+    },
+    {
+      "case": "unapproved_file_checksum",
+      "rejected": true,
+      "reason": "BAF v2 Base checksum mismatch"
+    }
+  ],
+  "accepted_cases": [
+    {
+      "case": "unknown_category",
+      "rejected": false,
+      "finite_scores": true,
+      "maximum_absolute_score_change": 0.12529330440637948,
+      "drift_alarm_implemented": false
+    },
+    {
+      "case": "finite_numeric_shift",
+      "rejected": false,
+      "finite_scores": true,
+      "maximum_absolute_score_change": 0.9998730036517263,
+      "drift_alarm_implemented": false
+    },
+    {
+      "case": "declared_missing_sentinel",
+      "rejected": false,
+      "finite_scores": true,
+      "maximum_absolute_score_change": 0.1325115473536833,
+      "drift_alarm_implemented": false
+    }
+  ],
+  "limitations": "Pinned-file hash rejects any different file, not diagnoses drift. Schema-only checks accept unknown categories and finite shifts. Finite probabilities do not imply valid predictions or acceptable performance.",
+  "source_sha256": {
+    "fraud_model_watch/faults.py": "0d8c30e65a6199a7a9380c3713c51f91ed8693b95369711129c1e886487f446f",
+    "fraud_model_watch/baseline.py": "50dba49fce8bc61c28e89d718fc34031f76caca441d69722f035b78bc23f7125",
+    "requirements.txt": "ecde24911a182a7656a036d0b9db775784a5d14a5f0c1375a8ba10dd6783f2dc",
+    "docs/COMPLETION_PLAN.md": "a7845fdc765b7d699531e57cdd13cffe3afe15907ca48adb4ed00757a8b67cb0"
+  }
+}
